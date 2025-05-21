@@ -1,0 +1,30 @@
+{
+    "id": 5360067,
+    "text": "年轻贵族的拜访",
+    "is_replay": 0, 
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on":{   
+        "round_begin_ba":1
+    },
+    "condition":{
+        "counter.7000633>=":1,//开局选了奴隶
+        "counter.7100001>=":3, //善名>=3
+        "counter.7100004>=":3, //侠名>=3
+        "counter.7100002<":10, //恶名<10
+    },
+        "settlement": [    
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "prompt":{
+                        "id":"5360067_prompt_01",
+                        "text":"一位你的追随者听闻你的遭难与建立的名声后前来帮助你",
+                        "icon":"cards/2000001"
+                },
+                "rite": 5020001 //收服法拉杰
+            }   
+        }        
+    ]
+}

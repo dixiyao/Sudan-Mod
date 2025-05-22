@@ -5,14 +5,15 @@
     "auto_start": false,
     "start_trigger": true, // 是否启动就立即开始校验条件
     "on":{   
-        "round_begin_ba":10
+        "round_begin_ba":1
     },
     "condition":{
         "counter.7000634>=":1,//开局法拉杰，没有奴隶
         "counter.7100001>=":3, //善名>=3
         "counter.7100004>=":3, //侠名>=3
+        "counter.7000060>=":10
     },
-        "settlement": [    
+    "settlement": [    
         {
             "tips_resource":"", 
             "tips_text":"",
@@ -46,6 +47,7 @@
                         "text":"你婉言谢绝了赠礼，使者赠予了等量的金币。然而贵族听说此事以后，似乎隐约投来了些许嘲讽。",
                         "icon": "cards/2000001"
                     }, 
+                    "coin":50,
                     "counter-7100003": 1 //权势-1
                  }
             }

@@ -1,18 +1,16 @@
  {
     "id": 5020001,
     "name": "法拉杰的交流",
-    "text": "法拉杰期待再次与你进行深入交流，他想要了解你对他所处的世界的看法。",       
+    "text": "法拉杰期待与你进行深入交流，他想要了解你对他所处的世界的看法。",       
     "tips": "合适的思潮将激发法拉杰的兴趣",
     "once_new":0,
     "round_number": 1,
     "waiting_round":0,
-    "waiting_round_end_action":[
-        ],
     "method_settlement": "",
     "auto_begin": 0,
     "auto_result":0,
-    "location": "自宅:[2,12]", 
-    "icon": "rite_1",  
+    "location": "自宅:[2,5]", 
+    "icon": "rite_4",  
     "tag_tips": [
  
     ],
@@ -45,10 +43,9 @@
             "result_text": "法拉杰很开心你可以和他花一晚上的时间深入交流，但是他期待可以交流更有意思的东西",
             "result": 
             {
-               
             },
             "action": {
-                "rite": 5020001 //继续
+                "rite": 5020001 //继续 
             }
         },
         {
@@ -144,17 +141,6 @@
         {
             "condition":
             {
-                "is": 2000372 //法拉杰
-            },
-            "open_adsorb":1,
-            "is_key":0,
-            "is_empty":0,
-            "is_enemy":0
-        },
-        "s2":
-        {
-            "condition":
-            {
                 "type":"char",
                 "主角":1
             },
@@ -164,12 +150,12 @@
             "is_enemy":0,
             "text":"你必须亲自去见他"
         },
-        "s3":
+        "s2":
         {
             "condition":
             {
                 "type":"item",
-                "思潮":1,
+                "思潮":1
             },
             "open_adsorb":0,
             "is_key":0,

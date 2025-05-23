@@ -4,7 +4,7 @@
 
 利用Github进行版本的管理：
 1. 切换branch, 在master branch里是主要修改过的mod。
-   - 如果需要切换会原版，切换到official 1.0 branch.再次重新替换config
+   - 如果需要切换回原版，切换到official 1.0 branch.再次重新替换config
 2. 如果想要添加其他的mod，可以直接fork 整个repo，然后创建新分支，再新分支里面加入mod
 3. 可以下载github 桌面版或者git CLI checkout来切换分支
 ## 进度

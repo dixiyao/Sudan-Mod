@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# zip files
+.zip
+.rar
+
+#i18n 游戏模板
+i18n/

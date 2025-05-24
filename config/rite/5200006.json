@@ -1,0 +1,102 @@
+ {
+        "id": 5200006,
+        "name": "情报收集",
+        "text": "你可以把这些情报在黑街售卖了",       
+        "tips": "",
+        "once_new":-1,
+        "round_number": 0,
+        "waiting_round":0,
+        "waiting_round_end_action":[
+        ],        
+        "method_settlement": "",
+        "auto_begin": 0, 
+        "auto_result": 0,//需要手动启动
+        "location": "黑街:3", 
+        "icon": "rite_6", 
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },       
+        "tips_text":[
+            "将情报放入对应的槽内"
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+        ],               
+        "settlement_extre": [
+            {
+                "condition": {
+                    "s1.rare=":1
+                },
+                "result_title":"",
+                "result_text": "售卖成功",
+                "result": 
+                {
+                    "coin":1
+                },
+                "action": {
+                }
+            },
+            {
+                "condition": {
+                    "s1.rare=":2
+                },
+                "result_title":"",
+                "result_text": "售卖成功",
+                "result": 
+                {
+                    "coin":2
+                },
+                "action": {
+                }
+            },
+            {
+                "condition": {
+                    "s1.rare=":3
+                },
+                "result_title":"",
+                "result_text": "售卖成功",
+                "result": 
+                {
+                    "coin":5
+                },
+                "action": {
+                }
+            },
+            {
+                "condition": {
+                    "s1.rare=":4
+                },
+                "result_title":"",
+                "result_text": "售卖成功",
+                "result": 
+                {
+                    "coin":10
+                },
+                "action": {
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "情报": 1      
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0
+                }
+        }
+    } 

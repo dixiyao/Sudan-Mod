@@ -26078,4 +26078,24 @@
         "equips": [],
         "is_only": 1
     },
+        "2001147": {
+        "id": 2001147,
+        "name": "夏玛的军队",
+        "title": "军队",
+        "text": "效命于新任大领主的部队。",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 2,
+        "resource": "cards/2000376",
+        "tag": {
+            "战斗": 8,
+            "部队": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
+    },
 }

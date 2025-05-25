@@ -46,6 +46,16 @@
             "id" : "5002035",
             "type" : "rite",
             "weight" : 60
+        },
+        {
+            "condition":{
+                "table_have.2100084": 1,
+                "table_have.2100084.妓女": 1
+            },
+            "num" : "1",
+            "id" : "5200007",
+            "type" : "rite",
+            "weight" : 60
         }
     ]
 }

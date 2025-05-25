@@ -12,10 +12,12 @@
             "!rite":5002004, 
             "!rite":5002005,
             "!rite":5002035,
+            "!rite":5200007,
             "any":{
                 "table_have.2000080": 1, //三人有一人活着
                 "table_have.2000081": 1, 
                 "table_have.2000082": 1,
+                "table_have.2001148": 1,
                 "all":{
                     "table_have.2000772":1,
                     "table_have.2000772.妓女>=": 1,

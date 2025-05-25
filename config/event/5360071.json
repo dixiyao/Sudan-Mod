@@ -18,7 +18,7 @@
                 "rite": 5200006, //可以卖情报
                 "success":{
                     "prompt":{
-                        "id": "5300098_prompt_01",
+                        "id": "5360071_prompt_01",
                         "text":"黑街总是会有人对各种情报感兴趣。",
                         "icon":"common/position_shangye_1"
                     }

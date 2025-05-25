@@ -82,6 +82,21 @@
                 },
                 "action": {
                 }
+            },
+            {
+                "condition": {
+                    "any":{
+                        "s1":1
+                    }
+                },
+                "result_title":"",
+                "result_text": "欢迎下次再来",
+                "result": 
+                {
+                },
+                "action": {
+                    "rite":5200006
+                }
             }
         ],
         "cards_slot":

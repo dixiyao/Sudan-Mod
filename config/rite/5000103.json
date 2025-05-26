@@ -6,7 +6,7 @@
         "mapping_id":8001213, 
         "once_new":1,
         "round_number": 1,
-        "waiting_round":7,
+        "waiting_round":99,
         "waiting_round_end_action":[
         ],
         "method_settlement": "",
@@ -19,15 +19,15 @@
         "tag_tips_up":{
         },
         "tips_text":[
-            "你提供的装备的魅力之和不能小于5点"
+            "你提供的装备的魅力之和不能小于4点"
         ],
         "open_conditions": [
             {
                 "condition": {
                     "counter.7100003>=":5,
-                    "f:s2.魅力+s3.魅力>=":5
+                    "f:s2.魅力+s3.魅力>=":4
                 },
-                "tips": "你的权势不能小于5点。装备的魅力之和不能小于5。"
+                "tips": "你的权势不能小于5点。装备的魅力之和不能小于4。"
             }
         ],
         "random_text":{

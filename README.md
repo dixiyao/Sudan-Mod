@@ -22,3 +22,6 @@
 ### Todo
 1. 玛雅的立绘
 2. 铁头自由人立绘
+
+## 其他mod整合
+https://pan.baidu.com/s/1otRgCyeSmvwBJ7zOkqyLSg?pwd=qxuc 其他来源

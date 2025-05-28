@@ -5,7 +5,7 @@
         "auto_start": false, //默认本局开始时即启动
         "start_trigger": false, 
         "on":{   //时机
-            "round_begin_ba":[5,8]
+            "round_begin_ba":[1,3]
         },
         "condition":{      
             "table_have.2000081":1   

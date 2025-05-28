@@ -129,7 +129,7 @@
                 "type":"item",
                 "cost.金币":3         
             },
-            "open_adsorb":1,
+            "open_adsorb":0,
             "is_key":0,
             "is_empty":1,
             "is_enemy":0,

@@ -5,7 +5,7 @@
     "tips": "",
     "once_new":0,
     "round_number": 1,
-    "waiting_round":1,
+    "waiting_round":3,
     "waiting_round_end_action":[
         {
             "condition":

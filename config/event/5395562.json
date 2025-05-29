@@ -1,0 +1,29 @@
+{
+    "id": 5395562,
+    "text": "拉伊德的坦诚事件",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1 // 每回合开始时检定
+    },
+    "condition":{  //条件 
+		     "hand_have.2000195":1,//拉伊德在手牌中
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{        
+				"rite":5095565,
+                "success":{
+                    "prompt": {
+                        "id": "prompt_5395562_01",
+                        "text": "拉伊德果然又来找你了，这一次她的脸上不仅有严肃，还有坚定与一点点的……放松，你才想她这次要说的事情一定很不寻常。",
+                        "icon":"cards/2000195"
+                    },
+                }
+            }	
+		}
+    ]
+} 

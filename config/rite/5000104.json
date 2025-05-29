@@ -6,7 +6,7 @@
         "mapping_id":8001213, 
         "once_new":1,
         "round_number": 1,
-        "waiting_round":7,
+        "waiting_round":99,
         "waiting_round_end_action":[
         ],
         "method_settlement": "",
@@ -24,9 +24,9 @@
             {
                 "condition": {
                     "counter.7100003>=":10,      
-                    "f:s2.魅力+s3.魅力>=":10
+                    "f:s2.魅力+s3.魅力>=":7
                 },
-                "tips": "你的权势不能小于10点。装备的魅力之和不能小于10。"
+                "tips": "你的权势不能小于10点。装备的魅力之和不能小于7。"
             }
         ],
         "random_text":{

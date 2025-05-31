@@ -1,0 +1,172 @@
+ {
+        "id": 5200009,
+        "name": "恶毒的仪式",
+        "text": "为了给你们俩增添无穷的情趣。你准备把奴隶开膛破肚，然后再缝合好，看这个奴隶能不能挺过去",       
+        "tips": "",
+        "mapping_id":8001178, 
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":7, 
+        "waiting_round_end_action":[
+            {
+                "condition": {
+                },
+                "result_title":"",
+                "result_text": "",
+                "result": 
+                { 
+                    "s1=支持":0,
+                    "s1+反对":6,
+                    "counter+7000058":1 
+                },
+                "action": {
+                    "counter+7100002": 1, //恶名+1
+                    "prompt": {
+                        "id": "prompt_5200009_01",
+                        "text": "你戏弄了她并没有完成答应的仪式她写了一封辞藻华丽，充满挑逗的信件，与那游牧民的头颅一起寄给你，但你明白，之后再遇见她可就不妙了。"
+                    }
+                }
+            }
+        ],
+        "method_settlement": "",
+        "auto_begin": 0, 
+        "auto_result": 0, //自动执行                           
+        "location": "上城区:[7,12]", 
+        "icon": "rite_12",  
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "你需要举行一个恶毒的仪式"
+        ],
+        "open_conditions": [  
+        ],
+        "random_text": { 
+        },
+        "random_text_up":{
+        },
+        "random_effect": {          
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                    "s5":1,
+                    "s6":1,
+                    "s4.rare=1":1
+                },
+                "result_title":"",
+                "result_text": "你给奴隶喂下了迷药之后，把他的内脏摆弄了一番，然后拼好他的骨骼，缝好他的胸膛，他便陷入了深深的睡梦之中。娜依拉在一边看的兴奋极了，连连的拍手叫好",
+                "result": 
+                { 
+                    "s1+激情":1,
+                    "s1+支持":1,
+                    "clean.s4":1,
+                    "s1+追随者":1
+                },
+                "action": {
+                }
+            }
+        ],                
+        "settlement_extre": [
+            {
+                "condition": {
+                    "s4.rare=":1
+                },
+                "result_title":"",
+                "result_text": "过了一段时间，奴隶迷迷糊糊的醒来了，很意外，这个手术反而让他的身体比之前更加健硕了\n那个奴隶看着你，只是冷冷的和你你说他需要一把趁手的弓箭才能更好地为你效力。",
+                "result": 
+                { 
+                    "clean.s2":1,
+                    "card":[2000114,"追随者+1"],  //获得神箭手
+                },
+                "action": {
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+            {
+                "condition":
+                {
+                    "is":2000055      
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"贵妇"
+            },
+            "s2":
+            {
+                "condition":
+                {
+                    "is": 2000115  
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"目光锐利的奴隶"
+            },
+            "s3":
+            {
+                "condition":
+                {
+                    "主角":1,
+                    "type":"char"    
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"你需要亲自前往"
+            },
+            "s4":
+            {
+                "condition":
+                {
+                    "type":"sudan",
+                    "rare=":1,
+                    "杀戮":1
+
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"符合奴隶品级的杀戮卡"
+            },
+            "s5":
+            {
+                "condition":
+                {
+                    "type":"item",
+                    "is":2000316
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"你需要迷药帮助完成仪式"
+            },
+            "s6":
+            {
+                "condition":
+                {
+                    "any":{
+                        "奇珍":1,
+                        "饰品":1
+                    }
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"你得献上一些礼物供娜依拉观看仪式的时候消遣"
+            },
+        }
+    } 

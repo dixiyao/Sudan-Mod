@@ -1,0 +1,99 @@
+ {
+        "id": 5200301,
+        "name": "欢宴大厅",
+        "text": "骄纵的大小姐又找到了你",       
+        "tips": "",
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":14,
+        "waiting_round_end_action":[
+        ],
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result":0,
+        "location": "商业区:7", 
+        "icon": "rite_18",
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "阿鲁米娜和她老公会在欢宴的时候帮你打探情报"
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+        ],                
+        "settlement_extre": [
+            {
+                "condition":
+                {
+                    "s1":1,
+                    "s2":1,
+                    "s3":1
+                },
+                "result_title":"声势浩大",
+                "result_text": "不得不说大小姐弄的可真是声势浩大，全城的贵族都知道阔绰的阿尔图老爷赞助开了一个宴会大厅。",
+                "result": 
+                {   
+                    "counter+7100003":1, //权势+1
+                    "loot":6000057, //随机金情报    
+                    "counter+7100006":1 //金骰子+1
+                },
+                "action":
+                {
+                    "global_counter+7210025": 1,//成就-奇珍之家
+                    "rite":5200302 //奇观欢宴
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+            {
+                "condition":
+                {
+                    "type":"char",
+                    "is":2000774 
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"大小姐"
+            },
+            "s2":
+            {
+                "condition":
+                {
+                    "type":"char",
+                    "is":2000794 
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"阿鲁米娜的老公"
+            },
+            "s3":
+                    {
+                        "condition": 
+                        {
+
+                            "type":"item",
+                            "空屋":1,                           
+                        },
+                        "open_adsorb":0,
+                        "is_key":0,
+                        "is_empty":1,
+                        "is_enemy":0,
+                        "text":"你需要拿出一个宅邸用来设宴"
+                }
+        }
+    } 

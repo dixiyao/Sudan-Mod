@@ -1,0 +1,32 @@
+{
+    "id": 5400303,
+    "text": "铁头声望事件-巨大的玩具",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba": 1
+    },
+    "condition":{  //条件
+        "hand_have.2000369":1, //铁头在手上
+        "any":{
+            "table_have.2000081":1, //贾丽拉空闲
+            "table_have.2000055":1 //娜依拉空闲           
+        }
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "rite": 5006621,
+                "prompt":{
+                        "id":"5400303_prompt_04",
+                        "text":"铁头是自由人了，你在想也许可以奖赏他什么？或许是年轻男女之间纯真的爱意……总之，一个黑暗的想法从你头脑里钻了出来……应该有不少贵妇会喜欢铁头这款吧。",
+                        "icon":["cards/2000369","cards/2000371","cards/2000001"]
+                    }
+            }
+        }
+
+    ]
+}

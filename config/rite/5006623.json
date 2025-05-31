@@ -1,23 +1,24 @@
  {
-        "id": 5200008,
-        "name": "送你自由",
-        "text": "你准备让铁头成为自由人",       
+        "id": 5006623,
+        "name": "大量石餐盒",
+        "text": "这餐盒看起来非常实用，你想多要一点。铁头对主人的决定没有疑义，只是这样的话，会占用他大量的时间。",       
         "tips": "",
         "once_new":0,
-        "round_number": 1, //立即执行
+        "round_number": 8,
         "waiting_round":0,
         "waiting_round_end_action":[
         ],        
         "method_settlement": "",
-        "auto_begin": 1,  //自动执行
-        "auto_result": 0, 
+        "auto_begin": 0, 
+        "auto_result": 0,//需要手动启动
         "location": "自宅:[2,12]", 
-        "icon": "rite_4",  
+        "icon": "rite_1", 
         "tag_tips": [
         ],
         "tag_tips_up":{
         },        
         "tips_text":[
+            "只要没有死，就往死里干"
         ],
         "open_conditions": [
         ],
@@ -34,14 +35,14 @@
                 "condition": {
                 },
                 "result_title":"",
-                "result_text": "他从你和梅姬手里接过自己的身份纸，从这一天起，他就是自由民了。",
+                "result_text": "夜以继日、昏天黑地的工作之后，铁头拿给你三个打磨好的石餐盒，希望这能让你满意。",
                 "result": 
-                {  
-                    "s1-奴隶":1,
-                    "s1+生存":1
+                {
+                    "card":[2000732,"已拥有+1"], //石餐盒
+                    "card":[2000732,"已拥有+1"], //石餐盒
+                    "card":[2000732,"已拥有+1"]  //石餐盒
                 },
                 "action": {
-                    "event_on": 5400303
                 }
             }
         ],
@@ -54,11 +55,11 @@
                     "type":"char",
                     "is":2000369
                 },
-                "open_adsorb":1,
+                "open_adsorb":0,
                 "is_key":0,
                 "is_empty":0,
                 "is_enemy":0,
-                "text":"铁头是自由人了"
+                "text":"你身边只有铁头有这份手艺"
             }
         }
     } 

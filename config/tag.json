@@ -1,0 +1,20 @@
+{
+    "doom": {
+        "id": 3020270,
+        "name": "末日使者",
+        "code": "doom",
+        "type": "attribute",
+        "text": "末日预言的坚决拥护者",
+        "tips": "",
+        "resource": "tag_0",
+        "can_add": 0,
+        "can_visible": 1,
+        "can_inherit": 0,
+        "can_nagative_and_zero": 0,
+        "fail_tag": [],
+        "tag_vanishing": 0,
+        "tag_sfx": "",
+        "tag_rank": 50,
+        "attributes": {}
+    }
+}

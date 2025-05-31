@@ -1,0 +1,56 @@
+{
+    "id": 5360066,
+    "text": "妻子的嫁妆",
+    "is_replay": 0, 
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on":{   
+        "round_begin_ba":1
+    },
+    "condition":{
+        "counter.7000634>=":1,//开局法拉杰，没有奴隶
+        "counter.7100001>=":3, //善名>=3
+        "counter.7100004>=":3, //侠名>=3
+        "counter.7000060>=":10 //10回合以后开启
+    },
+    "settlement": [    
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                 "option": {
+                    "id":"5360066_option_1",
+                     "text": "你妻子的家人送来了三位奴仆作为嫁妆，你对此感到快乐，是否接受",
+                     "icon": "cards/2000001",
+                     "items": [
+                         {
+                             "text": "欣然接受",
+                             "tag": "op1"
+                         },
+                         {
+                             "text": "婉言谢绝",
+                             "tag": "op2"
+                         }
+                     ]
+                 },
+                 "case:op1": {
+                    "table.主角专属3+追随者":1,
+                    "table.主角专属4+追随者":1,
+                    "table.主角专属5+追随者":1,
+                    "table.主角专属3-主角专属3":1,
+                    "table.主角专属4-主角专属4":1,
+                    "table.主角专属5-主角专属5":1
+                 },
+                 "case:op2": {
+                    "prompt":{
+                        "id":"5360066_prompt_1",
+                        "text":"你婉言谢绝了赠礼，使者赠予了等量的金币。然而贵族听说此事以后，似乎隐约投来了些许嘲讽。",
+                        "icon": "cards/2000001"
+                    }, 
+                    "coin":50,
+                    "counter-7100003": 1 //权势-1
+                 }
+            }
+        }           
+    ]
+}

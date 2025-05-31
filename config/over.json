@@ -1,0 +1,69 @@
+{
+        "605": {
+            "name": "末日降临",   
+            "sub_name": "现在末日真的来了",
+            "text": "你举起剑刃，贯穿了那个喋喋不休、满口荒言的预言者的胸膛。她跌倒在灰尘中，嘴角还残留着未说完的话语。你厌倦了那些灾厄将至、万物将终的聒噪之音——她只是个疯子，你这样告诉自己。可当她的心跳停止的那一刻，整个大地仿佛也屏住了呼吸。风停了，云散了。天空不再旋转，潮汐不再涨落。你原以为这一切不过是她最后的诅咒，可很快，你意识到——这不是诅咒，而是兑现。人群消失了，城市坍塌了，山河崩碎，日月黯淡，星辰像落幕",
+            "text_extra": [
+                {
+                    "condition": {
+                    },
+                    "result_text": ""
+                }
+            ],
+            "open_after_story": 1,
+            "bg":"over_cg/over_cg_1",
+            "icon":"over_icon/over_icon_1",
+            "title":"over_icon/over_title"
+        }, 
+        "631": {
+            "name": "政教合一",   //奥斯曼土耳其
+            "sub_name": "苏丹·哈里法",
+            "success": 1, 
+            "text": "掌控权力也掌控教义，从你开始苏丹也会行使哈里法的权力。发动征服，以神的名义，因为神需要无辜者之血。进行屠戮，以神的名义，因为无辜者被判为有罪。无尽挥霍，以神的名义，因为神需要侍奉。交媾罗网，以神的名义，因为神需要子嗣。你是神的代言人，你是神的化身，你是神的意志。",
+            "text_extra": [
+                {
+                    "condition": {
+                    },
+                    "result_text": ""
+                }
+            ],
+            "open_after_story": 1,
+            "bg":"over_cg/over_cg_1",
+            "icon":"over_icon/over_icon_1",
+            "title":"over_icon/over_title"
+        }, 
+        "632": {
+            "name": "腐败之国",  
+            "sub_name": "信众也为你欢呼",
+            "success": 1, 
+            "text": "掌控权力以后，你发现实际上不止有一位密神，你听见古神的低语，感受他们的意志，地底的呼唤，大地充斥腐败，你是他们的代言人。你是他们的化身，你是他们的意志。",
+            "text_extra": [
+                {
+                    "condition": {
+                    },
+                    "result_text": ""
+                }
+            ],
+            "open_after_story": 1,
+            "bg":"over_cg/over_cg_1",
+            "icon":"over_icon/over_icon_1",
+            "title":"over_icon/over_title"
+        }, 
+        "633": {
+            "name": "嘶嘶作响的蒸汽",  
+            "sub_name": "科技尤里卡",
+            "success": 1, 
+            "text": "这个世界只有一个神，那就是科学。你执政以后，国家将理性作为唯一信仰，快速的发展使得你的国度创造出了超越时代的产物，即使是村民，也能够帮助你发现核聚变的秘密，帝国一约成为这个世界最强大的存在",
+            "text_extra": [
+                {
+                    "condition": {
+                    },
+                    "result_text": ""
+                }
+            ],
+            "open_after_story": 1,
+            "bg":"over_cg/over_cg_1",
+            "icon":"over_icon/over_icon_1",
+            "title":"over_icon/over_title"
+        }
+}

@@ -1,0 +1,74 @@
+ {
+        "id": 5200003,
+        "name": "无法挽回的消逝",
+        "text": "在奈布哈尼的怀中，他逐渐停止了呼吸",       
+        "tips": "",
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":0,
+        "waiting_round_end_action":[
+            {
+                "condition": {
+                },
+                "result_title":"",
+                "result_text": "你为夏玛举办了葬礼，奈布哈尼也来了\n这一切都是因为苏丹...",
+                "result": 
+                {
+                    "clean.s1":1
+                },
+                "action":{
+                }
+            }
+        ],        
+        "method_settlement": "",
+        "auto_begin": 1, 
+        "auto_result": 0,//需要手动启动
+        "location": "商业区:[10,19]", 
+        "icon": "rite_2", 
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },        
+        "tips_text":[
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior":[
+            {
+                "condition": {
+                },
+                "result_title":"",
+                "result_text": "你为夏玛举办了葬礼，奈布哈尼也来了\n这一切都是因为苏丹...",
+                "result": 
+                {
+                    "clean.s1":1
+                },
+                "action":{
+                }
+            }
+        ],        
+        "settlement": [
+        ],               
+        "settlement_extre": [
+            
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        "is":2000082
+                    },
+                    "open_adsorb":1,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"夏玛躺在血泊之中" 
+                }
+        }
+    } 

@@ -1,0 +1,50 @@
+{
+    "id": 5360070,
+    "text": "政治联姻请求",
+    "is_replay": 0, 
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on":{   
+        "round_begin_ba":3
+    },
+    "condition":{
+    },
+    "settlement": [    
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                 "option": {
+                    "id":"5360070_option_1",
+                     "text": "几天后大领主夏玛找到你",
+                     "icon": "cards/2000082",
+                     "items": [
+                         {
+                             "text": "迎娶夏玛",
+                             "tag": "op1"
+                         },
+                         {
+                             "text": "委婉拒绝",
+                             "tag": "op2"
+                         }
+                     ]
+                 },
+                 "case:op1": {
+                    "rite":5200004 //开启结婚
+                 },
+                 "case:op2": {
+                    "prompt":{
+                        "id":"5360070_prompt_2",
+                        "text":"虽然梅姬知道这只是政治联姻，但是在知道夏玛将要继续回到领地以后，她松了一口气，轻轻抚摸你的胸口。",
+                        "icon": "cards/2000006"
+                    }, 
+                    "card":2000689,
+                    "table.妻子+激情":1
+                 },
+                 "success":{
+                    "event_off":5360070
+                }
+            }
+        }           
+    ]
+}

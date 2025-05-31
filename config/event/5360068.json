@@ -1,0 +1,28 @@
+{
+    "id": 5360068,
+    "text": "法拉杰的支持",
+    "is_replay": 0, 
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on":{   
+        "round_begin_ba":3
+    },
+    "condition":{
+    },
+        "settlement": [    
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "prompt":{
+                        "id":"5360068_prompt_01",
+                        "text":"在听闻了你成熟的计划以后，法拉杰决定带领他的追随者来支持你",
+                        "icon":"cards/2000001"
+                },
+                "table.主角专属1+追随者":1,
+                "table.主角专属1-主角专属1":1,
+                "card": [2001146,"追随者+1"]
+            }   
+        }        
+    ]
+}

@@ -747,11 +747,11 @@
         "comment": "右键置入卡牌新手引导"
     },
     "BEGIN_GUIDE_FILL_COIN_PROMPT_Gamepad": {
-        "zhCN": "选择金币卡按下{0}两次，可以自动填充奢靡卡要求的金币数量。",
+        "zhCN": "选中金币卡按下{0}两次，自动填充奢靡卡要求的金币数量。",
         "comment": "欢愉之馆奢靡卡金币放置新手引导, 右键快捷放置卡牌说明"
     },
     "BEGIN_GUIDE_REDRAW_SUDAN_CARD_PROMPT_Gamepad": {
-        "zhCN": "选中苏丹卡, 按下{0}确认更换。",
+        "zhCN": "选中苏丹卡， 按下{0}确认更换。",
         "comment": "抽卡界面新手引导, 更换苏丹卡方法说明"
     },
     "BEGIN_GUIDE_RITE_LAST_STATE_PROMPT_Gamepad": {
@@ -767,11 +767,11 @@
         "comment": "仪式界面新手引导, 停止事件按钮说明"
     },
     "BEGIN_GUIDE_CARD_INFO_PROMPT_Gamepad": {
-        "zhCN": "可以长按{0}查看卡牌说明。",
+        "zhCN": "长按{0}查看卡牌说明。",
         "comment": "卡牌详情新手引导, 说明按钮说明"
     },
     "BEGIN_GUIDE_READ_BOOK_PROMPT_Gamepad": {
-        "zhCN": "你获得了一本书，选中后按下{0}俺寻思试试吧。",
+        "zhCN": "你获得了一本书，选中后按下{0}放入俺寻思试试吧。",
         "comment": "获得书籍新手引导, 拖进俺寻思说明"
     },
     "BEGIN_GUIDE_BACK_ROUND_PROMPT_Gamepad": {
@@ -779,7 +779,7 @@
         "comment": "返回上一回合新手引导, 返回上一回合按钮说明"
     },
     "BEGIN_GUIDE_MAIN_HELP_PROMPT_Gamepad": {
-        "zhCN": "可以长按{0}查看功能说明。",
+        "zhCN": "长按{0}查看功能说明。",
         "comment": "主界面新手引导, 说明按钮"
     },
     "BEGIN_GUIDE_NEXT_DAY_PROMPT_Gamepad": {
@@ -1207,7 +1207,7 @@
         "comment": "填充上一次使用的卡牌"
     },
     "ILLEGAL_NAME": {
-        "zhCN": "当前名字无法使用, 请尝试其他名称",
+        "zhCN": "当前名字无法使用，请尝试其他名称。",
         "comment": "输入文本存在特殊字符提示"
     },
     "USER_ARCHIVE_SAVE": {
@@ -1266,5 +1266,89 @@
     "USER_ARCHIVE_UNNAMED": {
         "zhCN": "未命名存档",
         "comment": "存档默认名称"
+    },
+    "MOD_TITLE": {
+        "zhCN": "模组管理",
+        "comment": "模组管理界面标题"
+    },
+    "MOD_DESC": {
+        "zhCN": "模组管理界面，您可以在这里上传、下载、启用、禁用模组。",
+        "comment": "模组管理界面描述"
+    },
+    "MOD_OP_REFRESH": {
+        "zhCN": "刷新列表",
+        "comment": "刷新模组列表按钮标题"
+    },
+    "MOD_OP_EXPLORER_WORKSHOP": {
+        "zhCN": "Steam创意工坊",
+        "comment": "打开 Steam 创意工坊按钮标题"
+    },
+    "MOD_OP_EXPLORER_MODS": {
+        "zhCN": "模组目录",
+        "comment": "打开模组目录按钮标题"
+    },
+    "MOD_ITEM_ACTIVATE": {
+        "zhCN": "启用",
+        "comment": "模组列表中模组启用按钮标题"
+    },
+    "MOD_ITEM_DEACTIVATE": {
+        "zhCN": "禁用",
+        "comment": "模组列表中模组禁用按钮标题"
+    },
+    "MOD_ITEM_UPLOAD": {
+        "zhCN": "上传",
+        "comment": "模组列表中模组上传按钮标题"
+    },
+    "MOD_ITEM_UPDATE": {
+        "zhCN": "更新",
+        "comment": "模组列表中模组更新按钮标题"
+    },
+    "MOD_ITEM_DOWNLOAD": {
+        "zhCN": "下载",
+        "comment": "模组列表中模组下载按钮标题"
+    },
+    "MOD_CONFLICT": {
+        "zhCN": "模组 {0} 与 {1} 存在冲突，请先禁用 {1}。 详情:\n{2}",
+        "comment": "模组列表中模组冲突提示"
+    },
+    "MOD_UPLOAD_PROMPT": {
+        "zhCN": "上传该模组，您将需要同意<u><link=\"steam_workshop_legal_agreement@internal\">创意工坊服务条款</link></u>",
+        "comment": "模组首次上传提示"
+    },
+    "MOD_ACTIVE_FAILED": {
+        "zhCN": "模组 {0}启用失败，请检查日志。",
+        "comment": "模组列表中模组激活失败提示"
+    },
+    "MOD_UPLOAD_FAILED": {
+        "zhCN": "模组 {0} 上传失败，请检查日志。",
+        "comment": "模组列表中模组上传失败提示"
+    },
+    "MOD_PROCESS_UPLOAD": {
+        "zhCN": "正在上传 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
+        "comment": "模组列表中模组上传提示"
+    },
+    "MOD_PROCESS_DOWNLOAD": {
+        "zhCN": "正在下载 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
+        "comment": "模组列表中模组下载提示"
+    },
+    "MOD_PROCESS_ACTIVE": {
+        "zhCN": "正在启用 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
+        "comment": "模组列表中模组启用提示"
+    },
+    "MOD_BAN_WORDS": {
+        "zhCN": "模组存在违反社区规范的内容，请修改后再上传",
+        "comment": "模组列表中模组名称包含非法字符提示"
+    },
+    "MOD_INVALID_TITLE": {
+        "zhCN": "模组标题非法，请修改后再上传",
+        "comment": "模组列表中模组标题非法提示"
+    },
+    "MOD_INVALID_DESCRIPTION": {
+        "zhCN": "模组描述非法，请修改后再上传",
+        "comment": "模组列表中模组描述非法提示"
+    },
+    "MOD_INVALID_TAGS": {
+        "zhCN": "模组标签非法，请修改后再上传",
+        "comment": "模组列表中模组标签非法提示"
     }
 }

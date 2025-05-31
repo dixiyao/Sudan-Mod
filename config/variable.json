@@ -413,6 +413,10 @@
             "full": true
         },
     ],
+    //  文本链接
+    "text_link": {
+        "steam_workshop_legal_agreement": "https://steamcommunity.com/sharedfiles/workshoplegalagreement",
+    },
 
     //  以下都是非系统参数配置, 可能需要多语言翻译的
     "REDRAW_NOTICE": "<line-height=-2.1em><align=right><voffset=-2><size=120><link=\"redraw\"><sprite=4></link></size></voffset> <b>x</b><voffset=10><size=80>{1}</size></voffset>\t</align>\n</line-height>",

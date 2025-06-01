@@ -16,5 +16,26 @@
         "tag_sfx": "",
         "tag_rank": 50,
         "attributes": {}
+    },
+    "dragon_head_kept":
+    {
+        "id": 3020301,
+        "name": "被阿迪莱的部落保管",
+        "code": "dragon_head_kept",
+        "type": "attribute",
+        "text": "龙头现在被阿迪莱的部落保管", //防止被使用
+        "tips": "",
+        "resource": "tag_0",
+        "can_add": 0,
+        "can_visible": 1,
+        "can_inherit": 0,
+        "can_nagative_and_zero": 0,
+        "fail_tag": [],
+        "tag_vanishing": 0,
+        "tag_sfx": "",
+        "tag_rank": 30,
+        "attributes": {
+            "吸附指定": 1 
+        }
     }
 }

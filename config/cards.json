@@ -30,10 +30,10 @@
         "card_favour": "",
         "type": "item",
         "tips": "",
-        "rare": 2,
+        "rare": 4,
         "resource": "cards/2000376",
         "tag": {
-            "战斗": 8,
+            "战斗": 18,
             "部队": 1
         },
         "card_vanishing": 0,
@@ -67,5 +67,42 @@
             "饰品"
         ],
         "is_only": 1
-    }
+    },
+    "2001149": {
+        "id": 2001149,
+        "name": "直通苏丹房间的密道",
+        "title": "特殊",
+        "text": "无意中发现的密道，可以直接到苏丹的房间，但是有一个厚厚的栏杆",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2001149",
+        "tag": {},
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
+    },
+        "2001150": {
+        "id": 2001150,
+        "name": "  割炬",
+        "title": "道具",
+        "text": "一般是用来修东西的，但也可能可以破坏东西",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 1,
+        "resource": "cards/2001150",
+        "tag": {
+            "已拥有": 1,
+            "纯色材质": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
 }

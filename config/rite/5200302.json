@@ -26,7 +26,7 @@
         "auto_result":0,
         "location": "商业区:7",
         "type":"TREASURE",
-        "icon": "rite/5200302", 
+        "icon": "5200302", 
         "tag_tips": [
         ],
         "tag_tips_up":{
@@ -44,14 +44,10 @@
         ],                
         "settlement": [
             {
-            }
-        ],                
-        "settlement_extre": [
-            {
                 "condition":
                 {
-                    "s1":1,
-                    "s2":1
+                    "s6":1,
+                    "s5":1
                 },
                 "result_title":"声势浩大",
                 "result_text": "不得不说大小姐弄的可真是声势浩大，全城的贵族都知道阔绰的阿尔图老爷赞助开了一个宴会大厅。",
@@ -64,11 +60,13 @@
                 {
                     "rite":5200302 //奇观欢宴
                 }
-            },
+            }
+        ],                
+        "settlement_extre": [
             {
                 "condition":
                 {
-                    "s3":1
+                    "s1":1
                 },
                 "result_title":"大吃特吃",
                 "result_text": "美食总是可以让宴会增加一些乐趣，许多贵族留下了不少金币",
@@ -84,16 +82,16 @@
                 "condition":
                 {
                     "any":{
-                        "s4.is":2000724,
-                        "s4.is":2000410,
-                        "s4.is":2000411  //1~3级密教思潮
+                        "s2.is":2000724,
+                        "s2.is":2000410,
+                        "s2.is":2000411  
                     }
                 },
                 "result_title":"房间里传来敬拜异神的声音",
                 "result_text": "你接机污染了不少人",
                 "result": 
                 {   
-                    "card":[2000724,"已拥有+1"] //1级邪教理念
+                    "card":[2000724,"已拥有+1"] 
                 },
                 "action":
                 {
@@ -103,16 +101,16 @@
                 "condition":
                 {
                     "any":{
-                        "s4.is":2000725,
-                        "s4.is":2000726,
-                        "s4.is":2000727   //1~3级正教思潮
+                        "s2.is":2000725,
+                        "s2.is":2000726,
+                        "s2.is":2000727  
                     }
                 },
                 "result_title":"房间里传来了敬拜神祇的声音",
-                "result_text": "“摆脱这也太无聊了吧，能不能不要在我的宴会上进行崇拜神祇活动！”来自阿鲁米娜的咆哮！",
+                "result_text": "“拜托这也太无聊了吧，能不能不要在我的宴会上进行崇拜神祇活动！”来自阿鲁米娜的咆哮！",
                 "result": 
                 {   
-                    "s4+虔信":1
+                    "s2+虔信":1
                 },
                 "action":
                 {
@@ -121,13 +119,13 @@
             {
                 "condition":
                 {
-                    "s4.is":2000728  //4级正教思潮
+                    "s2.is":2000728 
                 },
                 "result_title":"房间里传来了敬拜神祇的声音",
-                "result_text": "“摆脱这也太无聊了吧，能不能不要在我的宴会上进行崇拜神祇活动！”来自阿鲁米娜的咆哮！",
+                "result_text": "“拜托这也太无聊了吧，能不能不要在我的宴会上进行崇拜神祇活动！”来自阿鲁米娜的咆哮！",
                 "result": 
                 {   
-                    "card":[2000986,"已拥有+1"] //一份乙太   
+                    "card":[2000986,"已拥有+1"] 
                 },
                 "action":
                 {
@@ -137,10 +135,10 @@
                 "condition":
                 {
                     "any":{
-                        "s4.is":2000100,
-                        "s4.is":2000171,
-                        "s4.is":2000172,
-                        "s4.is":2000541  //谋反思潮
+                        "s2.is":2000100,
+                        "s2.is":2000171,
+                        "s2.is":2000172,
+                        "s2.is":2000541  
                     }
                 },
                 "result_title":"激昂的发言",
@@ -156,13 +154,13 @@
             {
                 "condition":
                 {
-                    "s5.is":2000461
+                    "s4.is":2000461
                 },
                 "result_title":"最受欢迎的贵宾",
                 "result_text": "贝姬是宴会上最受欢迎的嘉宾，许多贵妇都忍不住给他好好打扮一番",
                 "result": 
                 {   
-                    "s5+魅力":1
+                    "s4+魅力":1
                 },
                 "action":
                 {
@@ -171,14 +169,14 @@
             {
                 "condition":
                 {
-                    "s5.is":2000989
+                    "s4.is":2000989
                 },
                 "result_title":"没有人能拒绝小狗",
                 "result_text": "绝对是没有人可以拒绝新月的，宴会上每个人都忍不住撸一撸可爱的新月，新月和许多贵族带来的狗狗打成了一片",
                 "result": 
                 {   
-                    "s5+生存":1,
-                    "s5+魅力":1
+                    "s4+生存":1,
+                    "s4+魅力":1
                 },
                 "action":
                 {
@@ -187,13 +185,13 @@
             {
                 "condition":
                 {
-                    "s5.妻子":1
+                    "s4.妻子":1
                 },
                 "result_title":"年轻真好",
                 "result_text": "梅姬看到阿鲁米娜和快脚的幸福时光，不禁回忆起年轻时候和你在一起时的故事",
                 "result": 
                 {   
-                    "card":2000689  //改在这里得到幸福感
+                    "card":2000689 
                 },
                 "action":
                 {
@@ -202,14 +200,15 @@
             {
                 "condition":
                 {
-                    "s5.男性":1
+                    "s4.男性":1,
+                    "!s4.女性":1
                 },
                 "result_title":"油腻",
                 "result_text": "“只不过是吃饭会吧唧嘴的男人罢了”",
                 "result": 
                 {   
-                    "counter-7100003":1, //权势+1
-                    "s5-魅力":1
+                    "counter-7100003":1, 
+                    "s4-魅力":1
                 },
                 "action":
                 {
@@ -218,13 +217,13 @@
             {
                 "condition":
                 {
-                    "s6":1
+                    "s3":1
                 },
                 "result_title":"这也太无聊了吧",
                 "result_text": "阿鲁米娜非常不满为什么无聊的家长会到场！但是哲瓦德很高兴他可以来参加宝贝女儿的活动。哲瓦德顺带送了点饰品给你。",
                 "result": 
                 {   
-                    "s6+支持":1,
+                    "s3+支持":1,
                     "loot":6002001 //随机她家的东西
                 },
                 "action":
@@ -235,33 +234,7 @@
         "cards_slot":
         {
             "s1":
-            {
-                "condition":
-                {
-                    "type":"char",
-                    "is":2000774 
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":1,
-                "is_enemy":0,
-                "text":"大小姐"
-            },
-            "s2":
-            {
-                "condition":
-                {
-                    "type":"char",
-                    "is":2000794 
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":1,
-                "is_enemy":0,
-                "text":"阿鲁米娜的老公"
-            },
-            "s3":
-            {
+           {
                 "condition": 
                 {
                     "any":{
@@ -281,12 +254,11 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":1,
+                "is_empty":0,
                 "is_enemy":0,
                 "text":"美食是宴会的基础" 
             },
-            "s4":
-            {
+            "s2":{
                 "condition": 
                 {
                     "type":"item",
@@ -310,11 +282,24 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":0,
+                "is_empty":1,
                 "is_enemy":0,
                 "text":"宴会上你可以借机传播一些理念" 
             },
-            "s5":
+            "s3":
+            {
+                "condition": 
+                {
+                    "type":"char",
+                    "is": 2000057          
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"也许你可以让家长到场监督"
+            },
+            "s4":
             {
                 "condition": 
                 {
@@ -331,22 +316,35 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":0,
+                "is_empty":1,
                 "is_enemy":0,
                 "text":"可以一起去参加欢宴"
             },
-            "s6":
+            "s5":
             {
-                "condition": 
+                "condition":
                 {
                     "type":"char",
-                    "is": 2000057          
+                    "is":2000794 
                 },
                 "open_adsorb":0,
                 "is_key":0,
                 "is_empty":0,
                 "is_enemy":0,
-                "text":"也许你可以让家长到场监督"
+                "text":"阿鲁米娜的老公"
+            },
+            "s6":
+            {
+                "condition":
+                {
+                    "type":"char",
+                    "is":2000774 
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"大小姐"
             }
         }
     } 

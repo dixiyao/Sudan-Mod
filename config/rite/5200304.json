@@ -1,0 +1,602 @@
+{
+    "id": 5200304,
+    "name": "肥狗胖猫宠物乐园",
+    "text": "法里斯的宠物乐园，各种小动物可以在这里欢快玩耍",       
+    "tips": "",
+    "mapping_id":8001073,
+    "once_new":0,
+    "round_number": 1, 
+    "waiting_round":0,
+    "waiting_round_end_action":[
+    ],
+    "method_settlement": "",
+    "auto_begin": 0,
+    "auto_result":0,
+    "location": "黑街:[2,5]",
+    "type":"TREASURE",
+    "icon": "5200304",  
+    "tag_tips": [
+ 
+    ],
+    "tag_tips_up":{
+        
+    },
+    "tips_text":[
+    ],
+    "open_conditions": [
+    ],
+    "random_text": {        
+       
+    },
+    "random_text_up":{
+       
+    },
+    "random_effect": {          
+    },
+    "settlement_prior": 
+    [
+    ],                
+    "settlement": [
+ 
+    ],                
+    "settlement_extre": [
+        {
+            "condition": {
+                "s1":1,
+                "s7.主角":1,
+                "counter.7000702<": 1
+            },
+            "result_title":"",
+            "result_text": "你和梅姬手来着手前往动物乐园，和你这样度过一天的愉快时间，她觉得很幸福",
+            "result": 
+            {
+                "card":2000689, //幸福感
+                "counter+7000702": 1//用这个方式获得过
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s1":1,
+                "s7.is":2000061,
+                "counter.7000702<": 1
+            },
+            "result_title":"",
+            "result_text": "你看见梅姬今天早上起的很早，将自己打扮得很美丽，早早出门。黄昏时分，她和阿迪莱手拉着手回来，有说有笑。",
+            "result": 
+            {
+                "card":2000689, //幸福感
+                "counter+7000702": 1//用这个方式获得过
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s4":1,
+                "counter.7000703<": 2
+            },
+            "result_title":"小鳄鱼来玩了！",
+            "result_text": "小鳄鱼来玩了，不过它得乖乖待在池子里，没有很大的活动空间",
+            "result": 
+            {
+                "counter+7000703": 1// 标记小鳄鱼来玩过
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s4":1,
+                "counter.7000703>=": 2,
+                "counter.7000704<": 1
+            },
+            "result_title":"小鳄鱼有点无聊",
+            "result_text": "小鳄鱼在池子里有点无聊，趁着大家不注意悄悄的沿着下水道游走了\n 无意中发现了一个下水道直接通往苏丹的房间，但是因为有着栏杆阻拦，它又回来了",
+            "result": 
+            {
+                "counter+7000703": 1,// 标记小鳄鱼来玩过
+                "counter+7000704":1, //获得密道
+                "card":2001149,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s13":1,
+                "have.2000173.幽秘的爱意<":2
+            },
+            "result_title":"",
+            "result_text": "法德耶今天来帮忙了，希望她见到了想见的那个人。虽然她没有勇气上前说话，但是远远地站着，帮着打理乐园里的一切，她就心满意足了。",
+            "result": 
+            {
+                "s13+幽秘的爱意":1
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s13":1,
+                "have.2000173.幽秘的爱意>=":2,
+                "counter.7000705<": 1
+            },
+            "result_title":"",
+            "result_text": "法德耶今天来帮忙了，希望她见到了想见的那个人。虽然她没有勇气上前说话，但是远远地站着，帮着打理乐园里的一切，她就心满意足了。",
+            "result": 
+            {
+                "counter+7000705": 1, 
+                "card":2001150
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "any":{
+                   "s1":1,
+                   "s2":1,
+                   "s3":1,
+                   "s4":1,
+                   "s5":1,
+                   "s6":1,
+                   "s7":1,
+                   "s8":1,
+                   "s9":1,
+                   "s10":1,
+                   "s11":1,
+                   "s12":1
+                }
+            },
+            "result_title":"",
+            "result_text": "大家都玩的很开心！",
+            "result": 
+            {
+                
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s1":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s1+体魄":1,
+                "s1+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s2":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s2+体魄":1,
+                "s2+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s3":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s3+体魄":1,
+                "s3+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s4":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s4+体魄":1,
+                "s4+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s5":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s5体魄":1,
+                "s5+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s6":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s6+体魄":1,
+                "s6+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s7":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s7+体魄":1,
+                "s7+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s8":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s8+体魄":1,
+                "s8+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s9":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s9+体魄":1,
+                "s9+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s10":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s10+体魄":1,
+                "s10+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s11":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s11+体魄":1,
+                "s11+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s12":1
+            },
+            "result_title":"",
+            "result_text": "",
+            "result": 
+            {
+                "s12+体魄":1,
+                "s12+生存":1,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+            },
+            "result_title":"",
+            "result_text": "就这样，时间很快过去了。",
+            "result": 
+            {
+                
+            },
+            "action": {
+                "event_on":5400006  //重启事件
+            }
+        }
+       
+    ],
+    "cards_slot":
+    {
+        "s1":
+        {
+            "condition":
+            {
+                "type":"char",
+                "妻子":1
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"梅姬会想来看看"
+        },
+        "s2":
+        {
+            "condition":
+            {
+                "type":"item",
+                "is":2000989   //新月
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"新月想来玩"
+        },
+        "s3":
+        {
+            "condition":
+            {
+                "type":"char",
+                "is":2000461 //贝姬
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"贝姬想来玩"
+        },
+        "s4":
+        {
+            "condition":
+            {
+                "type":"item",
+                "is":2000304
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"小鳄鱼想来玩"
+        },
+        "s5":
+        {
+            "condition":
+            {
+                "any":{
+                    "all":{
+                        "type":"char",
+                        "!怪物":1
+                    },
+                    "all":{
+                        "type":"item",
+                        "动物":1
+                        
+                    },
+                    "!is":2000989, //新月
+                    "!is":2000461, //贝姬
+                    "!is":2000304
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"来玩的朋友或者小动物"
+        },
+        "s6":
+        {
+            "condition":
+            {
+                "any":{
+                    "all":{
+                        "type":"char",
+                        "!怪物":1
+                    },
+                    "all":{
+                        "type":"item",
+                        "动物":1
+                        
+                    },
+                    "!is":2000989, //新月
+                    "!is":2000461, //贝姬
+                    "!is":2000304
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"来玩的朋友或者小动物"
+        },
+        "s7":
+        {
+            "condition":
+            {
+                "type":"char",
+                "any":{
+                    "主角":1,
+                    "is": 2000061,
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"梅姬想找一个人陪她一起去"
+        },
+        "s8":
+        {
+            "condition":
+            {
+                "any":{
+                    "all":{
+                        "type":"char",
+                        "!怪物":1
+                    },
+                    "all":{
+                        "type":"item",
+                        "!动物":1
+                        
+                    },
+                    "is":2000989, //新月
+                    "is":2000461 //贝姬
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"来玩的朋友或者小动物"
+        },
+        "s9":
+        {
+            "condition":
+            {
+                "any":{
+                    "all":{
+                        "type":"char",
+                        "!怪物":1
+                    },
+                    "all":{
+                        "type":"item",
+                        "!动物":1
+                        
+                    },
+                    "is":2000989, //新月
+                    "is":2000461 //贝姬
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"来玩的朋友或者小动物"
+        },
+        "s10":
+        {
+            "condition":
+            {
+                "any":{
+                    "all":{
+                        "type":"char",
+                        "!怪物":1
+                    },
+                    "all":{
+                        "type":"item",
+                        "!动物":1
+                        
+                    },
+                    "is":2000989, //新月
+                    "is":2000461 //贝姬
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"来玩的朋友或者小动物"
+        },
+        "s11":
+        {
+            "condition":
+            {
+                "any":{
+                    "all":{
+                        "type":"char",
+                        "!怪物":1
+                    },
+                    "all":{
+                        "type":"item",
+                        "动物":1
+                        
+                    },
+                    "!is":2000989, //新月
+                    "!is":2000461, //贝姬
+                    "!is":2000304
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"来玩的朋友或者小动物"
+        },
+        "s12":
+        {
+            "condition":
+            {
+                "any":{
+                    "all":{
+                        "type":"char",
+                        "!怪物":1
+                    },
+                    "all":{
+                        "type":"item",
+                        "动物":1
+                        
+                    },
+                    "!is":2000989, //新月
+                    "!is":2000461, //贝姬
+                    "!is":2000304
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"来玩的朋友或者小动物"
+        },
+        "s13":
+        {
+            "condition":
+            {
+                "type":"char",
+                "is":2000173
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":0,
+            "is_enemy":0,
+            "text":"法德耶总是来参观宠物乐园，有的时候也会一起帮忙"
+        }
+    }
+} 

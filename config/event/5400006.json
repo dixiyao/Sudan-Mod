@@ -1,0 +1,30 @@
+{
+    "id": 5400006,
+    "text": "法里斯的宠物乐园",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start_init": 0,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1 //每回合刷一次
+    },
+    "condition":{  //条件
+        "table_have.2000065":1,  //法里斯还活着
+        "!table_have.2000065.密教徒":1,  //法里斯不是密教徒
+        "counter.7000701>=":1,  //肥狗胖猫开张了
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+                    "action":{
+                    "delay": {  //延迟n回合执行、
+                        "id":54000061, //delay的唯一id
+                        "round": 7,
+                        "rite": 5200304, //法里斯宠物乐园 开张玩耍
+                     },
+                    "event_off":5400006 //避免在delay期间反复执行
+            }
+        }
+
+    ]
+}

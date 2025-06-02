@@ -1,0 +1,116 @@
+ {
+        "id": 5200303,
+        "name": "搭建宠物乐园",
+        "text": "法里斯准备开张一个宠物乐园",       
+        "tips": "",
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":14,
+        "waiting_round_end_action":[
+        ],
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result":0,
+        "location": "黑街:[2,5]",
+        "icon": "rite_1",  
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                  "s2.金币>=":5
+                },
+                "result_title":"宠物乐园开张",
+                "result_text": "法里斯的宠物乐园正式开张，猫猫狗狗都可以在这里欢乐的玩耍，当然也不是局限于猫猫狗狗",
+                "result": 
+                {   
+                    "counter+7000701":1 //肥狗胖猫开张
+                },
+                "action": {
+                }
+            }
+        ],                
+        "settlement_extre": [
+            {
+                "condition": {
+                  "s4.奢靡":1,
+                  "s2.金币>=":10
+                },
+                "result_title":"",
+                "result_text": "法里斯感谢你的慷慨援助",
+                "result": 
+                {
+                    "clean.s4":1
+                },
+                "action": {
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+            {
+                "condition":
+                {
+                    "type":"char",
+                    "is":2000065 
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"法里斯"
+            },
+            "s2":
+            {
+                "condition":
+                {
+                    "type":"char",
+                    "is":2000173
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"法德耶也过来帮忙了"
+            },
+            "s3":
+                    {
+                        "condition": 
+                        {
+                            "type":"item",
+                            "cost.金币":[5,10]                      
+                        },
+                        "open_adsorb":0,
+                        "is_key":0,
+                        "is_empty":1,
+                        "is_enemy":0,
+                        "text":"你需要资助一下法里斯"
+            },
+            "s4":
+                {
+                    "condition": 
+                    {
+                        "type":"sudan",
+                        "奢靡":1                            
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"你可以借此折断一张奢靡卡"                
+                }
+        }
+    } 

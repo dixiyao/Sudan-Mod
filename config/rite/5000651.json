@@ -53,6 +53,8 @@
         "settlement": [
             {
                 "condition": {
+                    "s4.type":"sudan",
+                    "s4.杀戮":1,
                     "s4.rare=":1
                 },
                 "result_title":"",
@@ -66,6 +68,8 @@
             },
             {
                 "condition": {
+                    "s4.type":"sudan",
+                    "s4.杀戮":1,
                     "s4.rare>=":2
                 },
                 "result_title":"",
@@ -82,9 +86,10 @@
                     "s4.is":2000316 //放了迷药
                 },
                 "result_title":"",
-                "result_text": "你悄悄的走到娜依拉耳边，告诉她，和杀戮卡一起，你有更好玩的东西和她分享\n你告诉她，你会举行一个仪式，剖开他的胸膛，如果他挺过来，作为交换，你会获得奴隶的使用权。",
+                "result_text": "你悄悄的走到娜依拉耳边，告诉她，和杀戮卡一起，你有更好玩的东西和她分享\n你告诉她，你会举行一个仪式，剖开他的胸膛，如果他挺过来，作为交换，你会获得奴隶的使用权。\n 娜依拉把玩了一下小药瓶，笑着还给了你。",
                 "result": 
                 { 
+                    "card":[2000316,"已拥有+1"]  //迷药  
                 },
                 "action": {
                     "rite": "5200009"
@@ -94,6 +99,8 @@
         "settlement_extre": [
             {
                 "condition": {
+                    "s4.type":"sudan",
+                    "s4.杀戮":1,
                     "s4.rare=":1
                 },
                 "result_title":"",
@@ -110,6 +117,8 @@
             },
             {
                 "condition": {
+                    "s4.type":"sudan",
+                    "s4.杀戮":1,
                     "s4.rare>=":2
                 },
                 "result_title":"",

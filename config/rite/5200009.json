@@ -53,6 +53,8 @@
         "settlement": [
             {
                 "condition": {
+                    "s3":1,
+                    "s4":1,
                     "s5":1,
                     "s6":1,
                     "s4.rare=1":1
@@ -121,7 +123,7 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":1,
+                "is_empty":0,
                 "is_enemy":0,
                 "text":"你需要亲自前往"
             },
@@ -136,7 +138,7 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":1,
+                "is_empty":0,
                 "is_enemy":0,
                 "text":"符合奴隶品级的杀戮卡"
             },
@@ -149,7 +151,7 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":1,
+                "is_empty":0,
                 "is_enemy":0,
                 "text":"你需要迷药帮助完成仪式"
             },
@@ -157,14 +159,17 @@
             {
                 "condition":
                 {
+                    "type":"item",
                     "any":{
                         "奇珍":1,
                         "饰品":1
-                    }
+                    },
+                    "rare>=":3,
+                    "!is":2001022        //排除碧云套
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":1,
+                "is_empty":0,
                 "is_enemy":0,
                 "text":"你得献上一些礼物供娜依拉观看仪式的时候消遣"
             },

@@ -1,0 +1,33 @@
+{
+    "id": 5400007,
+    "text": "阿图娜尔纵欲 银",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start_init": [1],
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1 //每回合刷一次
+    },
+    "condition":{  //条件
+        "counter.7000079>=":1, 
+        "table_have.2000129":1, // 阿图娜儿沒死
+        "table.2000129.rare=":3 // 阿图娜儿提升一次
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "event_off": 5400007, //关闭事件
+                "rite": 5200305, 
+                "success":{
+                    "prompt":{
+                        "id": "5400007_prompt_01",
+                        "text":"阿图娜儿很感谢你为她举办舞会，她找到你，希望可以和你有一些一些独处的机会",
+                        "icon":"cards/2000129"
+                    }
+                }
+            }
+        }
+
+    ]
+}

@@ -11,7 +11,7 @@
         "method_settlement": "",
         "auto_begin": 0,
         "auto_result":0,
-        "location": "商业区:7", 
+        "location": "商业区:[7,10]", 
         "icon": "rite_18",
         "tag_tips": [
         ],

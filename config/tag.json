@@ -37,5 +37,25 @@
         "attributes": {
             "吸附指定": 1 
         }
+    },
+    "with_nayila":
+    {
+        "id": 3020302,
+        "name": "与娜依拉交欢",
+        "code": "with_nayila",
+        "type": "attribute",
+        "text": "与娜依拉进行过交欢", //防止被使用
+        "tips": "",
+        "resource": "tag_0",
+        "can_add": 0,
+        "can_visible": 1,
+        "can_inherit": 0,
+        "can_nagative_and_zero": 0,
+        "fail_tag": [],
+        "tag_vanishing": 0,
+        "tag_sfx": "",
+        "tag_rank": 30,
+        "attributes": {
+        }
     }
 }

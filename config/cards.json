@@ -124,5 +124,97 @@
         "vanish": {},
         "equips": [],
         "is_only": 1
+    },
+    "2002001": {
+        "id": 2002001,
+        "name": "挑战者",
+        "title": "敌人",
+        "text": "你不是苏丹，你的恶行总会有人看不惯。",
+        "pops": [],
+        "card_favour": "",
+        "type": "char",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2000633",
+        "tag": {
+            "体魄": 5,
+            "魅力": 3,
+            "智慧": 3,
+            "战斗": 10,
+            "恶名挑战者": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2002001": {
+        "id": 2002001,
+        "name": "挑战者",
+        "title": "敌人",
+        "text": "你不是苏丹，你的恶行总会有人看不惯。",
+        "pops": [],
+        "card_favour": "",
+        "type": "char",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2000633",
+        "tag": {
+            "体魄": 9,
+            "魅力": 3,
+            "智慧": 7,
+            "战斗": 10,
+            "恶名挑战者": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2002002": {
+        "id": 2002002,
+        "name": "挑战者",
+        "title": "敌人",
+        "text": "你不是苏丹，你的恶行总会有人看不惯。",
+        "pops": [],
+        "card_favour": "",
+        "type": "char",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2000625",
+        "tag": {
+            "体魄": 8,
+            "魅力": 3,
+            "智慧": 6,
+            "战斗": 10,
+            "恶名挑战者": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2002003": {
+        "id": 2002003,
+        "name": "挑战者",
+        "title": "敌人",
+        "text": "你不是苏丹，你的恶行总会有人看不惯。",
+        "pops": [],
+        "card_favour": "",
+        "type": "char",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2000342",
+        "tag": {
+            "体魄": 10,
+            "魅力": 3,
+            "智慧": 5,
+            "战斗": 10,
+            "恶名挑战者": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
     }
 }

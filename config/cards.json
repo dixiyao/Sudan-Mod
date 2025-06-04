@@ -1,4 +1,23 @@
 {
+    "2000945": {
+        "id": 2000945,
+        "name": "《佣兵的笔记》",
+        "title": "书籍",
+        "text": "写满了佣兵们冒险经验的书籍",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 2,
+        "resource": "cards/2000576",
+        "tag": {
+            "读物": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
     "2001146": {
         "id": 2001146,
         "name": "超激进军队",

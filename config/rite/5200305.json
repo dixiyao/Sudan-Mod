@@ -95,7 +95,7 @@
             },
             {
                 "condition": {
-                  "s1":1,
+                  "s1.rare=":3,
                   "s4":1
                 },
                 "result_title":"荷鲁斯",
@@ -106,6 +106,20 @@
                     "s2+equip_slot": "cloth" //增加一个服装槽位
                 },
                 "action": {
+                }
+            },
+            {
+                "condition": {
+                  "s1.rare=":4,
+                  "s4":1
+                },
+                "result_title":"荷鲁斯",
+                "result_text": "她似乎像有魔力一般，也许是由于家族的古老力量，你获得了一次重置苏丹卡的机会",
+                "result": 
+                {
+                },
+                "action": {
+                    "rite": 5200307
                 }
             }
         ],

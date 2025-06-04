@@ -28,6 +28,8 @@
         "open_conditions": [  
         ],
         "random_text": { 
+        },
+        "random_text_up":{
             "r1":{
                 "text":"你从宠物乐园的入口开始爬进下水道", //投骰子前的文本
                 "type":"normal_result", //设计者觉得这里可以先不对抗，所以用normal
@@ -41,9 +43,7 @@
                 "type_tips":"你的隐匿为你提供了完整的骰子数量。",
                 "low_target": 1,
                 "low_target_tips": "你至少需要1点成功才能承受住这次攻击。"
-            },
-        },
-        "random_text_up":{
+            }
         },
         "random_effect": {          
         },
@@ -79,7 +79,7 @@
                 },
                 "action": {
                 }
-            }
+            },
             {
                 "condition": {   
                     "r1:生存>=":[5,10], //如果检定没通过  

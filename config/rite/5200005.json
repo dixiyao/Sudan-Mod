@@ -21,6 +21,12 @@
             "将装备放入对应的槽内"
         ],
         "open_conditions": [
+            {
+                "condition": {
+                    "s1":1      
+                },
+                "tips": "放入需要售卖的装备"
+            }
         ],
         "random_text":{
         },

@@ -8,14 +8,14 @@
         "round_begin_ba":1 //每回合刷一次
     },
     "condition":{  //条件
-        "counter.7000060>=":3
+        "counter.7000060>=":1
     },
     "settlement": [    //效果 
         {
             "tips_resource":"", 
             "tips_text":"",
             "action":{
-                "rite": 5200006, //可以卖情报
+                "event_on": 5360074, //可以卖情报
                 "success":{
                     "prompt":{
                         "id": "5360071_prompt_01",

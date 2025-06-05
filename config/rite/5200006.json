@@ -21,6 +21,12 @@
             "将情报放入对应的槽内"
         ],
         "open_conditions": [
+            {
+                "condition": {
+                    "s1":1      
+                },
+                "tips": "放入需要出售的情报"
+            }
         ],
         "random_text":{
         },

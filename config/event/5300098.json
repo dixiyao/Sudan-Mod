@@ -8,7 +8,7 @@
         "round_begin_ba":1 //每回合刷一次
     },
     "condition":{  //条件
-        "counter.7000060>=":5
+        "counter.7000060>=":1
     },
     "settlement": [    //效果 
         {
@@ -16,7 +16,7 @@
             "tips_text":"",
             "action":{
                 "event_on":5300035, //激活武器商人
-                "rite": 5200005, //可以卖装备
+                "event_on":5360075, //可以卖装备
                 "rite": 5000129, //装备引导
                 "success":{
                     "prompt":{

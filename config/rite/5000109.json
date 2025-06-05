@@ -46,7 +46,24 @@
                 }
             }
         ],                
-        "settlement_extre": [        
+        "settlement_extre": [
+            {
+                "condition":
+                {
+                    "counter.7000426>=":10, //盲盒购买次数>=10
+                    "have.2000114.追随者":1, //古利斯
+                },
+                "result_title":"奇怪的东西",
+                "result_text": "听说你有个手下对一个没有什么用的武器很感兴趣，因为你在赃物商人这里购买东西的次数足够多，他准备把这个看似没什么用的东西送给你",
+                "result": 
+                { 
+                             
+                },
+                "action":
+                {
+                    "event_on": 5400306 //古利斯找你
+                }
+            }        
         ],
         "cards_slot":
         {

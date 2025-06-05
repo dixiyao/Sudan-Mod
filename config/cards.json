@@ -144,28 +144,70 @@
         "equips": [],
         "is_only": 1
     },
-    "2002001": {
-        "id": 2002001,
-        "name": "挑战者",
-        "title": "敌人",
-        "text": "你不是苏丹，你的恶行总会有人看不惯。",
+    "2001152": {
+        "id": 2001152,
+        "name": "袖剑",
+        "title": "袖剑",
+        "text": "看上去很华丽的武器，但似乎没有什么用",
         "pops": [],
         "card_favour": "",
-        "type": "char",
+        "type": "item",
         "tips": "",
         "rare": 4,
-        "resource": "cards/2000633",
+        "resource": "cards/2001152",
         "tag": {
-            "体魄": 5,
-            "魅力": 3,
-            "智慧": 3,
             "战斗": 10,
-            "恶名挑战者": 1
+            "隐匿": 10,
+            "纯色材质": 1
         },
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 1
+    },
+    "2001153": {
+        "id": 2001153,
+        "name": "信条",
+        "title": "思潮",
+        "text": "行于黑暗 侍奉光明",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 1,
+        "resource": "cards/2001153",
+        "tag": {
+            "思潮": 1,
+            "已拥有": 1,
+            "可堆叠": 1,
+            "纯色材质": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
+    },
+    "2001154": {
+        "id": 2001154,
+        "name": "圣殿骑士团",
+        "title": "思潮",
+        "text": "一个古老教团的标记，目的在于从人民手中集中权力",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 1,
+        "resource": "cards/2001154",
+        "tag": {
+            "思潮": 1,
+            "已拥有": 1,
+            "可堆叠": 1,
+            "纯色材质": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
     },
     "2002001": {
         "id": 2002001,

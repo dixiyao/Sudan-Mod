@@ -1,0 +1,51 @@
+{
+    "id": 5400306,
+    "text": "古利斯问询",     
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":3 // 仪式开始时，等三天来找
+    },
+    "condition":{  //条件
+        "table_have.2000114":1 //古利斯
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "rite": 5200309,
+                "prompt":{
+                        "id":"5400306_prompt_01",
+                        "text":"古利斯找到你说你前两天黑街上买的一个武器他隐约记得。当时他还是游牧民的时候，部落帮助过一个带着那个装备的人。古利斯问你是否可以回到原来的故地去看一下。",
+                        "icon":["cards/2000114","cards/2001152"],
+                        "items": [
+                            {
+                                "text": "好啊，没问题",
+                                "tag": "op1"
+                            },
+                            {
+                                "text": "算了吧",
+                                "tag": "op2"
+                            }
+                        ]
+                        },
+                "case:op1": {
+                    "rite":5200309, // 
+                    "event_off":5400306
+                },
+                "case:op2": {
+                    "counter-7100004":1, //侠名-1
+                    "prompt":{
+                        "id":"5400306_prompt_2",
+                        "text":"这事情也就过去了",
+                        "icon": ["cards/2000114"]
+                    },
+                    "event_off":5400306
+                }
+            }
+        }
+
+    ]
+}

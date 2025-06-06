@@ -8,7 +8,8 @@
         "round_begin_ba": 1
     },
     "condition":{
-        "have.妻子":1 //妻子存活
+        "have.妻子":1, //妻子存活
+        "have.2000371.追随者":1,
     },
     "settlement": [    //效果 
         {

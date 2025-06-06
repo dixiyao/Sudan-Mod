@@ -65,5 +65,39 @@
             "bg":"over_cg/over_cg_1",
             "icon":"over_icon/over_icon_1",
             "title":"over_icon/over_title"
+        },
+        "634": {
+            "name": "猫猫世界",  
+            "sub_name": "现在，全民信仰猫猫教！",
+            "success": 2, 
+            "text": "你结束了这张游戏，但是似乎给所有人开了一个更大的玩笑。起初有许多人质疑，让一个猫做国家的领袖，这是多荒谬的事情。但是随后发现，实际上猫猫也有自己的智慧。这个国家不再有阶级拆分，没有奴隶，没有压迫。所有人可以平等的在猫猫面前说话。很快，男性和女性有一样的地位，可以从事一样的工作，拥有一样的权利。另外，当小鱼干和鸡胸肉变成硬通货的时候，国家也更注重于基础的农业和渔业，随着农业的发展，帝国也为未来的繁荣打下了基础。",
+            "text_extra": [
+                {
+                    "condition": {
+                    },
+                    "result_text": ""
+                }
+            ],
+            "open_after_story": 1,
+            "bg":"over_cg/over_cg_1",
+            "icon":"over_icon/over_icon_1",
+            "title":"over_icon/over_title"
+        },
+        "635": {
+            "name": "猫狗世界",  
+            "sub_name": "养猫？还是养狗?",
+            "success": 2, 
+            "text": "你结束了这张游戏，但是似乎给所有人开了一个更大的玩笑。起初有许多人质疑，让一只猫和一条狗做国家的领袖，这是多荒谬的事情。但是随后发现，实际上猫猫也有自己的智慧。这个国家不再有阶级拆分，没有奴隶，没有压迫。所有人可以平等的在猫猫面前说话。很快，男性和女性有一样的地位，可以从事一样的工作，拥有一样的权利。至于朝堂上，此起彼伏的猫叫和狗吠就有点吵闹了。",
+            "text_extra": [
+                {
+                    "condition": {
+                    },
+                    "result_text": ""
+                }
+            ],
+            "open_after_story": 1,
+            "bg":"over_cg/over_cg_1",
+            "icon":"over_icon/over_icon_1",
+            "title":"over_icon/over_title"
         }
 }

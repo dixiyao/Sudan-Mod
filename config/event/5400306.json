@@ -8,7 +8,8 @@
         "round_begin_ba":3 // 仪式开始时，等三天来找
     },
     "condition":{  //条件
-        "table_have.2000114":1 //古利斯
+        "table_have.2000114":1, //古利斯
+        "counter.7000707>=":1, //读过佣兵笔记
     },
     "settlement": [    //效果 
         {

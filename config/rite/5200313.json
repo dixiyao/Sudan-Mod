@@ -1,0 +1,113 @@
+ {
+    "id": 5200313,
+    "name": "会见伊玛尼",
+    "text": "因为你多次的良好表现，伊玛尼愿意和你再进一步交流",       
+    "tips": "",
+    "once_new":0,
+    "round_number": 1,
+    "waiting_round":7,
+    "method_settlement": "",
+    "auto_begin": 0,
+    "auto_result":0,
+    "location": "神殿区:[2,10]", 
+    "icon": "rite_9",  
+    "tag_tips": [
+ 
+    ],
+    "tag_tips_up":{
+       
+    },
+    "tips_text":[
+
+    ],
+    "open_conditions": [
+            {
+                "condition": {
+                    "any":{
+                       "s2":1,
+                       "s4":1, 
+                    }
+                }
+            }
+    ],
+    "random_text": {        
+       
+    },
+    "random_text_up":{
+       
+    },
+    "random_effect": {          
+    },
+    "settlement_prior": 
+    [
+        
+    ],                            
+    "settlement": [
+    ],
+    "settlement_extre": [
+    ],    
+    "cards_slot":
+    {
+        "s1":
+        {
+            "condition":
+            {
+                "type":"char",
+                "is": 2000059 //伊玛尼
+            },
+            "open_adsorb":1,
+            "is_key":0,
+            "is_empty":0,
+            "is_enemy":0,
+            "text":"教法学者"
+        },
+        "s2":
+        {
+            "condition":
+            {
+                "type":"item",
+                "any":{
+                    "is": 2000725,
+                    "is": 2000726,
+                    "is": 2000727,
+                    "is": 2000728,
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":0,
+            "is_enemy":0,
+            "text":"你需要有纯净思想才有机会面见她"
+        },
+        "s3":
+        {
+            "condition":
+            {
+                "type":"char",
+                "主角":1
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":0,
+            "is_enemy":0,
+            "text":"你得亲自面见"
+        },
+        "s4":
+        {
+            "condition":
+            {
+                "type":"sudan",
+                "any":{
+                    "纵欲":1,
+                    "杀戮":1,
+                },
+                "rare=":3,
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"你可是“吃杀草”老爷"
+        },
+    }
+} 

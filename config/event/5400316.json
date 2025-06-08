@@ -1,0 +1,28 @@
+{
+    "id": 5400316,
+    "text": "伊玛尼-打工事件",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+    },
+    "condition":{
+        "table_have": 2000059,
+        "counter.7000712>=":5, //打过五次工
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "prompt":{
+                        "id":"5400316_prompt_01",
+                        "text":"因为你多次帮助正教的行为，伊玛尼愿意和你有更“深入”的交流",
+                        "icon":["cards/2000059"]
+                    },
+                "rite":5200313 // 再见伊玛尼
+            }
+        }
+
+    ]
+}

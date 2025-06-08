@@ -1,0 +1,547 @@
+<mxfile host="Electron" modified="2025-06-08T00:30:47.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="dwUm_Lb9EPie2A_KzYHv" version="24.5.3" type="device">
+  <diagram name="Page-1" id="yZ-xAedIctqZgvHN8nGH">
+    <mxGraphModel dx="1185" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-1" target="82Vmk0w9NgiGbKGh9TBM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-1" value="阅读佣兵笔记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-2" target="82Vmk0w9NgiGbKGh9TBM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-2" value="赃物商人购买十次&lt;div&gt;古利斯是追随者&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-3" target="82Vmk0w9NgiGbKGh9TBM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-11" value="同意回故地" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-10">
+          <mxGeometry x="-0.025" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-3" target="82Vmk0w9NgiGbKGh9TBM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-14" value="拒绝" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-13">
+          <mxGeometry x="0.264" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-3" value="事件：古利斯会面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-5" target="82Vmk0w9NgiGbKGh9TBM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-5" value="获得袖剑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-2" target="82Vmk0w9NgiGbKGh9TBM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-9" target="82Vmk0w9NgiGbKGh9TBM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-20" value="判定没过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-19">
+          <mxGeometry x="0.1463" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-22" value="判定过了" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-9" target="82Vmk0w9NgiGbKGh9TBM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-9" value="古利斯回故地" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-12" value="侠名-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-15" target="82Vmk0w9NgiGbKGh9TBM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-15" value="刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-17" target="82Vmk0w9NgiGbKGh9TBM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-17" value="苏丹的戏弄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-23" target="82Vmk0w9NgiGbKGh9TBM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-30" value="恶名&amp;gt;=20 或&lt;div&gt;有四个以上教团标记&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-29">
+          <mxGeometry x="0.2003" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-23" target="82Vmk0w9NgiGbKGh9TBM-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-23" value="仪式：古利斯佩戴袖剑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-28" target="82Vmk0w9NgiGbKGh9TBM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-33" value="判定过了或者使用了毒药" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-32">
+          <mxGeometry x="-0.4172" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-28" target="82Vmk0w9NgiGbKGh9TBM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-36" value="没过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-35">
+          <mxGeometry x="0.4584" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-28" value="古利斯刺杀" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-31" value="古利斯死亡，放了杀戮卡教团标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-34" value="主角死亡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-37" target="82Vmk0w9NgiGbKGh9TBM-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-45" value="完成了莎姬的请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-44">
+          <mxGeometry x="0.2122" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-37" target="82Vmk0w9NgiGbKGh9TBM-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-37" target="82Vmk0w9NgiGbKGh9TBM-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-37" target="82Vmk0w9NgiGbKGh9TBM-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-88" value="哲瓦德死亡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-87">
+          <mxGeometry x="-0.1721" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-37" target="82Vmk0w9NgiGbKGh9TBM-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-37" value="无形者送名单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.025;exitY=0.64;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-37" target="82Vmk0w9NgiGbKGh9TBM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-42" value="没有其他方式获得&lt;div&gt;莎姬的刺客标记，莎姬死亡&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-41">
+          <mxGeometry x="0.132" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-39" target="82Vmk0w9NgiGbKGh9TBM-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-47" value="帮助教团任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-46">
+          <mxGeometry x="0.1867" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-39" target="82Vmk0w9NgiGbKGh9TBM-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-52" value="帮助摆脱教团" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-51">
+          <mxGeometry x="0.0517" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-39" value="会见莎姬" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-40" value="刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-43" target="82Vmk0w9NgiGbKGh9TBM-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-43" value="送莎姬双头龙+热娜首饰+冒险者协会宝物或龙眼+金纵欲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-48" value="得到苏丹宠幸，教团标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-50" target="82Vmk0w9NgiGbKGh9TBM-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-55" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-54">
+          <mxGeometry x="-0.08" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-50" target="82Vmk0w9NgiGbKGh9TBM-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="630" />
+              <mxPoint x="220" y="760" />
+              <mxPoint x="95" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-75" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-57">
+          <mxGeometry x="-0.3717" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-50" value="需要三支军队对付贵族和诸侯，需要征服" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="590" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-53" value="主角死了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="670" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-56" target="82Vmk0w9NgiGbKGh9TBM-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-159" value="金纵欲" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-158">
+          <mxGeometry x="-0.1975" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-56" value="莎姬要和主角睡&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="810" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-58" target="82Vmk0w9NgiGbKGh9TBM-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-62" value="帮助教团任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-61">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-77" value="尝试劝说" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-58" target="82Vmk0w9NgiGbKGh9TBM-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-79" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-58" target="82Vmk0w9NgiGbKGh9TBM-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-82" value="阿卜德死亡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-79">
+          <mxGeometry x="-0.3091" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-58" value="完成首次会见阿卜德" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-60" target="82Vmk0w9NgiGbKGh9TBM-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-66" value="开启了猎奴人线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-65">
+          <mxGeometry x="0.24" y="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-60" target="82Vmk0w9NgiGbKGh9TBM-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-69" value="猎奴人还没完全死亡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-68">
+          <mxGeometry x="-0.0612" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-60" value="开启追杀奴隶军" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="610" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-63" value="宰相说坏话，苏丹的猜忌+3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="680" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-67" target="82Vmk0w9NgiGbKGh9TBM-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-76" value="判定成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-71">
+          <mxGeometry x="-0.0918" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-67" target="82Vmk0w9NgiGbKGh9TBM-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-74" value="判定失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-73">
+          <mxGeometry x="0.0648" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-67" value="击杀奴隶军" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="685" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-70" value="奴隶军，放杀戮芮尔死亡，放征服屠杀平民，教团标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="750" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-72" value="主角死" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="750" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-78" value="刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="570" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-80" target="82Vmk0w9NgiGbKGh9TBM-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-84" value="赞同其加入教团" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-83">
+          <mxGeometry x="-0.0355" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-80" target="82Vmk0w9NgiGbKGh9TBM-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-104" value="说服退出教团" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-103">
+          <mxGeometry x="0.0998" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-80" value="哲瓦德入队" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-85" value="金币+20，&lt;div&gt;教团标记+1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="680" width="80" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-86" value="刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-89" target="82Vmk0w9NgiGbKGh9TBM-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-93" value="劝说" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-92">
+          <mxGeometry x="-0.0024" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-89" target="82Vmk0w9NgiGbKGh9TBM-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-95" value="赞同" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-94">
+          <mxGeometry x="0.098" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-89" value="会见伊玛尼" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-91" target="82Vmk0w9NgiGbKGh9TBM-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-98" value="杀戮卡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-97">
+          <mxGeometry x="-0.1255" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-91" target="82Vmk0w9NgiGbKGh9TBM-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-101" value="完美世界" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-100">
+          <mxGeometry x="0.1512" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-91" value="给正教打工5次以上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="410" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-96" value="刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="352.5" width="80" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-99" value="教团标记+1，可以消一张纵欲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="452.5" width="100" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-102" value="给20金币退出，权势&amp;gt;10,可以消奢靡&lt;div&gt;刺客标记+1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="560" width="100" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-105" target="82Vmk0w9NgiGbKGh9TBM-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-105" value="有五个教团标记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="830" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-106" target="82Vmk0w9NgiGbKGh9TBM-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-118" value="古利斯还在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-117">
+          <mxGeometry x="0.1247" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-106" value="有四个刺客标记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="830" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-110" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-107" target="82Vmk0w9NgiGbKGh9TBM-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-111" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-110">
+          <mxGeometry x="-0.1111" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-115" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-107" target="82Vmk0w9NgiGbKGh9TBM-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-107" value="无形者讨伐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="900" width="107.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-109" target="82Vmk0w9NgiGbKGh9TBM-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-109" value="获得思潮：圣殿骑士团" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="980" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-112" value="改朝换代" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1050" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-114" value="主角死亡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="980" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-116" target="82Vmk0w9NgiGbKGh9TBM-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-116" value="和古利斯一起会见无形者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424.38" y="920" width="161.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-119" target="82Vmk0w9NgiGbKGh9TBM-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-119" value="无形者地下大军，完成据点建立，满足条件：暗杀者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424.38" y="990" width="161.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-147" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-122" target="82Vmk0w9NgiGbKGh9TBM-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-122" value="开启结局方法：刺杀苏丹" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.355;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-106" target="82Vmk0w9NgiGbKGh9TBM-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-125" value="完成法里斯线，法里斯去近卫标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-130" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-126" target="82Vmk0w9NgiGbKGh9TBM-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-131" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;梅姬和阿迪莱或者&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;阿尔图去乐园&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-130">
+          <mxGeometry x="-0.1025" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-134" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-126" target="82Vmk0w9NgiGbKGh9TBM-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-138" value="小鳄鱼去三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-134">
+          <mxGeometry x="0.1984" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-136" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-126" target="82Vmk0w9NgiGbKGh9TBM-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-137" value="法德耶去三次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-136">
+          <mxGeometry x="-0.0925" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-126" value="帮助法里斯建设乐园" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="760" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-127" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.453;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-125" target="82Vmk0w9NgiGbKGh9TBM-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-132" value="法德耶还在，新月还在，法里斯不是密教徒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-127">
+          <mxGeometry x="-0.1756" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-128" value="幸福感+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-133" target="82Vmk0w9NgiGbKGh9TBM-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-133" value="发现去苏丹房间方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-140" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-135" target="82Vmk0w9NgiGbKGh9TBM-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-135" value="法德耶送割炬" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-139" target="82Vmk0w9NgiGbKGh9TBM-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="1020" />
+              <mxPoint x="780" y="1020" />
+              <mxPoint x="780" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-143" value="成功：满足去苏丹房间方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-142">
+          <mxGeometry x="-0.0456" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-139" target="82Vmk0w9NgiGbKGh9TBM-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-151" value="生存没过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-150">
+          <mxGeometry x="-0.2994" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-139" target="82Vmk0w9NgiGbKGh9TBM-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-156" value="隐匿没过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-154">
+          <mxGeometry x="-0.2199" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-139" value="切开密道栏杆" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-145" target="82Vmk0w9NgiGbKGh9TBM-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-145" value="结局：兄弟会" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1060" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-149" target="82Vmk0w9NgiGbKGh9TBM-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-149" value="伙伴死了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-153" value="伙伴死了，随机苏丹的戏弄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1050" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.89;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-153" target="82Vmk0w9NgiGbKGh9TBM-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-157" value="&lt;div&gt;莎姬退出教团&lt;/div&gt;刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="930" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-160" value="苏丹可以是：奈费勒，主角，古利斯，无形者，冒险者协会线的圆桌骑士" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1055" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

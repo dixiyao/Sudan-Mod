@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2025-06-08T01:39:13.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="yA0Jdk8DIvr4NbSat1T-" version="24.5.3" type="device">
+<mxfile host="Electron" modified="2025-06-08T02:09:50.392Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="zh2YBoZ9vH1bqSUtsCrT" version="24.5.3" type="device">
   <diagram name="Page-1" id="yZ-xAedIctqZgvHN8nGH">
     <mxGraphModel dx="2035" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -364,7 +364,7 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-96" value="刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="352.5" width="80" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-99" value="刺客标记+1，可以消一张纵欲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-99" value="刺客标记+1，可以消一张纵欲，销纵欲魅力&amp;gt;=8" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="452.5" width="100" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-102" value="给20金币退出，权势&amp;gt;10,可以消奢靡&lt;div&gt;刺客标记+1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -561,7 +561,7 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-164" value="教团标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="860" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-168" value="教团标记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-168" value="教团标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="266.25" width="100" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-91" target="82Vmk0w9NgiGbKGh9TBM-168">

@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2025-06-08T00:30:47.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="dwUm_Lb9EPie2A_KzYHv" version="24.5.3" type="device">
+<mxfile host="Electron" modified="2025-06-08T01:39:13.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="yA0Jdk8DIvr4NbSat1T-" version="24.5.3" type="device">
   <diagram name="Page-1" id="yZ-xAedIctqZgvHN8nGH">
-    <mxGraphModel dx="1185" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2035" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,7 +179,10 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-43" value="送莎姬双头龙+热娜首饰+冒险者协会宝物或龙眼+金纵欲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="550" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-48" value="得到苏丹宠幸，教团标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-48" target="82Vmk0w9NgiGbKGh9TBM-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-48" value="得到苏丹宠幸" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="630" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-50" target="82Vmk0w9NgiGbKGh9TBM-53">
@@ -361,7 +364,7 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-96" value="刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="352.5" width="80" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-99" value="教团标记+1，可以消一张纵欲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-99" value="刺客标记+1，可以消一张纵欲" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="452.5" width="100" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-102" value="给20金币退出，权势&amp;gt;10,可以消奢靡&lt;div&gt;刺客标记+1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -404,8 +407,11 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-109" value="获得思潮：圣殿骑士团" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="980" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-112" target="82Vmk0w9NgiGbKGh9TBM-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-112" value="改朝换代" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1050" width="140" height="40" as="geometry" />
+          <mxGeometry x="130" y="1055" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-114" value="主角死亡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="980" width="70" height="40" as="geometry" />
@@ -521,7 +527,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-145" value="结局：兄弟会" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1060" width="110" height="50" as="geometry" />
+          <mxGeometry x="650" y="1045" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-149" target="82Vmk0w9NgiGbKGh9TBM-139">
           <mxGeometry relative="1" as="geometry" />
@@ -538,8 +544,36 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-157" value="&lt;div&gt;莎姬退出教团&lt;/div&gt;刺客标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="12.5" y="930" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-160" value="苏丹可以是：奈费勒，主角，古利斯，无形者，冒险者协会线的圆桌骑士" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1055" width="220" height="60" as="geometry" />
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-160" value="苏丹可以是：莎姬，奈费勒，主角，古利斯，无形者，冒险者协会线的圆桌骑士" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.63" y="1040" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-162" target="82Vmk0w9NgiGbKGh9TBM-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-167" value="金纵欲" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-166">
+          <mxGeometry x="-0.4815" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-162" value="莎姬要和主角睡&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="700" width="62.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-164" value="教团标记+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="860" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-168" value="教团标记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="266.25" width="100" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-91" target="82Vmk0w9NgiGbKGh9TBM-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-170" value="其他思潮" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-169">
+          <mxGeometry x="0.0968" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-171" value="苏丹和宰相可以是：莎姬，奈费勒，主角，阿卜德" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1030" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

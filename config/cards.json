@@ -9,7 +9,7 @@
         "type": "char",
         "tips": "",
         "rare": 2,
-        "resource": "cards/2000114,cards/2000114_1",
+        "resource": ["cards/2000114","cards/2000114_1"],
         "tag": {
             "体魄": 3,
             "魅力": 1,

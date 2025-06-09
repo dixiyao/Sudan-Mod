@@ -1,7 +1,7 @@
 {
     "id": 5400306,
     "text": "古利斯问询",     
-    "is_replay": 1, //是否可以重复触发
+    "is_replay": 0, //是否可以重复触发
     "auto_start": false,
     "start_trigger": false, // 是否启动就立即开始校验条件
     "on":{   //时机

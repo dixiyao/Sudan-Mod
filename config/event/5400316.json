@@ -7,7 +7,7 @@
     "on":{   //时机
     },
     "condition":{
-        "table_have": 2000059,
+        "table_have.2000059": 1,
         "counter.7000712>=":5, //打过五次工
     },
     "settlement": [    //效果 

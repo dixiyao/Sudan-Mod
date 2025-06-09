@@ -103,7 +103,8 @@
                 "result": 
                 {
                     "s2+equip_slot": "accessory", //增加一个饰品槽位
-                    "s2+equip_slot": "cloth" //增加一个服装槽位
+                    "s2+equip_slot": "cloth", //增加一个服装槽位
+                    "clean.s1":1 
                 },
                 "action": {
                 }
@@ -117,9 +118,11 @@
                 "result_text": "她似乎像有魔力一般，也许是由于家族的古老力量，你获得了一次重置苏丹卡的机会",
                 "result": 
                 {
+                    "clean.s1":1 
                 },
                 "action": {
-                    "rite": 5200307
+                    "rite": 5200307,
+                    
                 }
             }
         ],
@@ -130,14 +133,13 @@
                     "condition": 
                     {
                         "type":"sudan",
-                        "纵欲":1,    
-                        "f:s1.rare-s3.rare>=":0                    
+                        "纵欲":1                
                     },
                     "open_adsorb":0,
                     "is_key":0,
                     "is_empty":1,
                     "is_enemy":0,
-                    "text":"纵欲卡等级不能低于阿图娜儿的等级"
+                    "text":"纵欲卡"
                 },
             "s2":
                 {

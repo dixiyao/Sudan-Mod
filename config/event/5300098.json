@@ -8,7 +8,7 @@
         "round_begin_ba":1 //每回合刷一次
     },
     "condition":{  //条件
-        "counter.7000060>=":1
+        "counter.7000060>=":5
     },
     "settlement": [    //效果 
         {

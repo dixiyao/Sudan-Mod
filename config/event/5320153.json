@@ -26,7 +26,9 @@
             "tips_text":"",
             "action":{
                 "clean.rite":5006609,
-                "rite": 5200013 // 娜娜榜单plus
+                "clean.rite": 52000013,
+                "rite": 5200013, // 娜娜榜单plus
+                "event_off": 5320153
             }
         }
 

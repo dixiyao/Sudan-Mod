@@ -25,7 +25,7 @@
                 "condition": {
                     "any":{
                        "s3":1,
-                       "s4":1, 
+                       "s4":1
                     }
                 }
             }
@@ -114,7 +114,7 @@
             },
             "open_adsorb":0,
             "is_key":0,
-            "is_empty":0,
+            "is_empty":1,
             "is_enemy":0,
             "text":"你决定劝说她"
         },
@@ -125,9 +125,9 @@
                 "type":"char",
                 "主角":1,
             },
-            "open_adsorb":1,
+            "open_adsorb":0,
             "is_key":0,
-            "is_empty":0,
+            "is_empty":1,
             "is_enemy":0,
             "text":"你支持她加入教团"
         },

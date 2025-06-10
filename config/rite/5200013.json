@@ -3,7 +3,7 @@
         "name": "促成交欢+",
         "text": "娜依拉最近又物色到了不少你的目标猎物，你准备帮忙筹办一下\n当然，如果你已经准备好了亲自上阵，那也未尝不可。",       
         "tips": "",
-        "once_new":0,
+        "once_new":1,
         "round_number": 1,
         "waiting_round":0,
         "waiting_round_end_action":[

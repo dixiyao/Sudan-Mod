@@ -19,7 +19,7 @@
             "action":{
                 "delay": {  //延迟n回合执行、
                     "id":54000061, //delay的唯一id
-                    "round": 7,
+                    "round": 3,
                     "rite": 5200304, //法里斯宠物乐园 开张玩耍
                 },
                 "event_off":5400006 //避免在delay期间反复执行

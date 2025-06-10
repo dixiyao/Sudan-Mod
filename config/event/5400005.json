@@ -2,7 +2,7 @@
     "id": 5400005,
     "text": "法里斯的宠物乐园",     
     "is_replay": 0, //是否可以重复触发
-    "auto_start_init": [1],
+    "auto_start": false, 
     "start_trigger": false, // 是否启动就立即开始校验条件
     "on":{   //时机
         "round_begin_ba":1 //每回合刷一次

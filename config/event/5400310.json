@@ -8,7 +8,7 @@
         "round_begin_ba":1 // 仪式开始时
     },
     "condition":{
-        "!table_have.2000349": 1,  //阿卜德被移除时
+        "!have.2000349": 1,  //阿卜德被移除时
     },
     "settlement": [    //效果 
         {

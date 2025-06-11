@@ -1,0 +1,28 @@
+{
+    "id": 5400313,
+    "text": "古利斯刺客--问询哲瓦德",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1 // 仪式开始时
+    },
+    "condition":{
+        "table_have.2000057": 1,  //哲瓦德被移除时
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "prompt":{
+                        "id":"5400313_prompt_01",
+                        "text":"你打算问问这个贪官关于教团的事情",
+                        "icon":["cards/2000057"]
+                    },
+                "rite": 5200314 // 问询哲瓦德
+            }
+        }
+
+    ]
+}

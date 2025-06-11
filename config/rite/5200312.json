@@ -6,6 +6,7 @@
     "once_new":0,
     "round_number": 1,
     "waiting_round":7,
+    "waiting_round_end_action":[],
     "method_settlement": "",
     "auto_begin": 0,
     "auto_result":0,

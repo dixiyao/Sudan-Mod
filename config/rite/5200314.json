@@ -6,6 +6,7 @@
     "once_new":0,
     "round_number": 1,
     "waiting_round":7,
+    "waiting_round_end_action":[],
     "method_settlement": "",
     "auto_begin": 0,
     "auto_result":0,
@@ -55,7 +56,8 @@
             "result": 
             {
                 "clean.s4":1, //折断杀戮
-                "card":[2001154,"已拥有+1"] //信条+1
+                "card":[2001153,"已拥有+1"], //信条+1
+                "counter+7000712":1,
             },
             "action": {
             }
@@ -70,6 +72,7 @@
             "result": 
             {
                 "card":[2001153,"已拥有+1"], //信条
+                "counter+7000712":1,
             },
             "action": {
             }
@@ -82,7 +85,7 @@
             "result_text": "哲瓦德知道你也是教团的支持者以后露出了满意的笑容，这下他可以更加肆无忌惮的敛财了，有了阿尔图老爷撑腰，从教团那里捞钱将会更容易。",
             "result": 
             {
-                "card":[2001153,"已拥有+1"], //教团
+                "card":[2001154,"已拥有+1"], //教团
                 "coin":50  //金币+50   
             },
             "action": {
@@ -106,7 +109,7 @@
     ],    
     "cards_slot":
     {
-        "s2":
+        "s1":
         {
             "condition":
             {

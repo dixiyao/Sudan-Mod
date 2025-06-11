@@ -6,6 +6,7 @@
     "once_new":0,
     "round_number": 1,
     "waiting_round":7,
+    "waiting_round_end_action":[],
     "method_settlement": "",
     "auto_begin": 0,
     "auto_result":0,
@@ -60,7 +61,7 @@
             "result": 
             {
                 "clean.s4":1, //折断杀戮
-                "card":[2001154,"已拥有+1"] //信条+1
+                "card":[2001153,"已拥有+1"] //信条+1
             },
             "action": {
             }

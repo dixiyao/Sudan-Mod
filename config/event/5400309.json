@@ -1,0 +1,56 @@
+{
+    "id": 5400309,
+    "text": "古利斯刺客--阿卜德线开启",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1 // 仪式开始时
+    },
+    "condition":{
+        "table_have.2000349": 1,  //阿卜德被移除时
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "option": {
+                    "id":"5400309_option_1",
+                    "text": "阿卜德抢先一步找到了你，似乎想是要试探又或者是戏耍你一下，让你告诉他你支持教团还是无形者",
+                    "icon": "cards/2000349",
+                    "items": [
+                        {
+                            "text": "我想加入教团",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "劝说他退出教团",
+                            "tag": "op2"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt":{
+                        "id":"5400309_prompt_02",
+                        "text":"哈哈哈好啊，阿卜德似乎很满意你的决定。不过，他突然放低声音，你得先帮我办一件事情，证明你的忠诚。",
+                        "icon":["cards/2000349"]
+                    },
+                    "event_on": 5400320, //匪帮没建立
+                    "event_on": 5400321, //匪帮建立
+                    "event_off":5400309
+                },
+                "case:op2": {
+                    "prompt":{
+                        "id":"5400309_prompt_03",
+                        "text":"哈哈哈好啊，不过你决定你有什么理由能够说服我呢？你可以为我带来什么？",
+                        "icon":["cards/2000349"]
+                    },
+                    "event_on": 5400319,
+                    "event_off":5400309
+                }
+            }
+        }
+
+    ]
+}

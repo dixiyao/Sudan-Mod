@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2025-06-11T02:25:30.302Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="C5GGJmT9YxJK_01Hwewz" version="24.5.3" type="device">
+<mxfile host="Electron" modified="2025-06-11T03:06:57.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="22AwXM7_-EOa1GxHELD-" version="24.5.3" type="device">
   <diagram name="Page-1" id="yZ-xAedIctqZgvHN8nGH">
     <mxGraphModel dx="2035" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -176,7 +176,7 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-43" target="82Vmk0w9NgiGbKGh9TBM-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-43" value="送莎姬+热娜首饰+冒险者协会宝物或龙眼" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-43" value="送莎姬+5魅力首饰+冒险者协会宝物或龙眼" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="550" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-48" target="82Vmk0w9NgiGbKGh9TBM-56">

@@ -1,0 +1,69 @@
+{
+    "id": 5200015,
+    "name": "贝姬的约会",
+    "text": "你发现贝姬今天悄悄的溜出去了，你吩咐了好多人去找，终于在野外发现她和好伙伴在玩，你打算找人带他回来，但他好像不是很情愿",       
+    "tips": "",
+    "mapping_id":8001179,
+    "once_new":0,
+    "round_number": 7,
+    "waiting_round":0,
+    "waiting_round_end_action":[
+    ],
+    "method_settlement": "",
+    "auto_begin": 1,
+    "auto_result":0,
+    "location": "野外:[1,14]",  
+    "icon": "rite_22", 
+    "tag_tips": [
+    ],
+    "tag_tips_up":{
+    },
+    "tips_text":[
+    ],
+    "open_conditions": [
+    ],
+    "random_text":{
+        
+    },
+    "random_text_up":{
+      
+    },
+    "settlement_prior": [
+    ],                
+    "settlement": [
+        {
+            "condition": {
+                
+                "s1":1   //吸到了贝姬
+            },
+            "result_title":"好可爱的小猫咪",
+            "result_text": "贝姬玩了整整七天才愿意回来，回来的时候全身都是泥巴，像是泥沼里面滚过的小野猫。他还带了两个小伙伴回来",
+            "result": 
+            {
+                "card": [2002004,"追随者+1"],
+                "card": [2002005,"追随者+1"]
+            },
+            "action": {
+
+            }
+        }
+    ],                
+    "settlement_extre": [
+    ],
+    "cards_slot":
+    {
+        "s1":
+            {
+                "condition": 
+                {
+                    "type":"char",
+                    "is":2000461 //贝姬
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"快乐的贝姬"
+            }
+    }
+} 

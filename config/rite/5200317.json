@@ -23,7 +23,7 @@
         "method_settlement": "",
         "auto_begin": 0,
         "auto_result":0,
-        "location": "野外:[1,6]",
+        "location": "野外:[3,6]",
         "icon": "rite_11",  
         "tag_tips": [
             "体魄",
@@ -161,7 +161,7 @@
                             "f:s3.体魄+s3.战斗+s4.体魄+s4.战斗+s5.体魄+s5.战斗+s6.体魄+s6.战斗-s7.体魄-s7.战斗-s1.体魄-s1.战斗-s2.体魄-s2.战斗<": 3
                         },
                         "action":{
-                            "pop.5002031_s4_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200317_s3_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -170,7 +170,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s4_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200317_s3_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 
@@ -188,7 +188,7 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":1,
+                "is_empty":0,
                 "is_enemy":0,
                 "text":"你可以亲自，或派遣任意追随者随队出征",                   
                 "pops":[
@@ -197,7 +197,7 @@
                             "f:s3.体魄+s3.战斗+s4.体魄+s4.战斗+s5.体魄+s5.战斗+s6.体魄+s6.战斗-s7.体魄-s7.战斗-s1.体魄-s1.战斗-s2.体魄-s2.战斗<": 3
                         },
                         "action":{
-                            "pop.5002031_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200317_s4_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -206,7 +206,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200317_s4_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 
@@ -215,6 +215,7 @@
             {
                 "condition":
                 {
+                    
                     "部队":1,
                     "any":{
                         "type":"item",
@@ -224,7 +225,7 @@
                 },
                 "open_adsorb":0,
                 "is_key":0,
-                "is_empty":1,
+                "is_empty":0,
                 "is_enemy":0,
                 "text":"你可以亲自，或派遣任意追随者随队出征",                   
                 "pops":[
@@ -233,7 +234,7 @@
                             "f:s3.体魄+s3.战斗+s4.体魄+s4.战斗+s5.体魄+s5.战斗+s6.体魄+s6.战斗-s7.体魄-s7.战斗-s1.体魄-s1.战斗-s2.体魄-s2.战斗<": 3
                         },
                         "action":{
-                            "pop.5002031_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200317_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -242,7 +243,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200317_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 

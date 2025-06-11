@@ -1,11 +1,10 @@
 {
     "id": 5400011,
     "text": "贝姬的约会",     
-    "is_replay": 1, //是否可以重复触发
+    "is_replay":0, //是否可以重复触发
     "auto_start": false,
     "start_trigger": false, // 是否启动就立即开始校验条件
     "on":{   //时机
-        "card_clean": 1
     },
     "condition":{  //条件
         "table_have.2000461": 1
@@ -15,9 +14,9 @@
             "tips_resource":"", 
             "tips_text":"",
             "action":{
-                "rite":5200015 //贝姬的约会
+                "rite":5200015, //贝姬的约会
+                "event_off": 5400011
             }
-        }
-
+        }    
     ]
 }

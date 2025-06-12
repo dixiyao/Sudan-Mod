@@ -1,0 +1,28 @@
+{
+    "id": 5400323,
+    "text": "开启教团结局线前置",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1
+    },
+    "condition":{
+        "have.2001154": 5,
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "prompt":{
+                        "id":"5400323_prompt_01",
+                        "text":"你手里有足够的圣殿骑士徽章，你明白这也只是一个理由，发动一场战争，结束这场可笑的游戏",
+                        "icon":["cards/2001154"]
+                    },
+                    "rite": 5200326
+            }
+        }
+
+    ]
+}

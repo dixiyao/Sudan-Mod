@@ -1,0 +1,81 @@
+ {
+        "id": 5200322,
+        "name": "创建无形者据点",
+        "text": "你答应保住无形者建立据点，繁华的商业区反而可以作为很好的掩护，也便于无形者行动",       
+        "tips": "",
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":0,
+        "waiting_round_end_action":[
+        ],
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result":0,
+        "location": "商业区:[7,10]", 
+        "icon": "rite_18",
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+        ],                
+        "settlement_extre": [
+            {
+                "condition":
+                {
+                },
+                "result_title":"信仰之跃",
+                "result_text": "你拿出了一个宅邸帮助无形者建立一个据点，作为交换他们答应会在你需要帮助的时候加入作战。这群战士擅长隐匿和刺杀，也可以帮助制造混乱。另外，他们突然从据点高点跃下跳入草堆的行为你不是很理解。",
+                "result": 
+                {   
+                    "loot":6000057, //随机金情报    
+                    "counter+7100006":1, //金骰子+1
+                    "clean.s2":1,
+                    "s1+已拥有":1
+                },
+                "action":
+                {
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+            {
+                "condition":
+                {
+                    "type":"item",
+                    "is":2001155
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"无形者"
+            },
+            "s2":
+                    {
+                        "condition": 
+                        {
+
+                            "type":"item",
+                            "空屋":1,                           
+                        },
+                        "open_adsorb":0,
+                        "is_key":0,
+                        "is_empty":0,
+                        "is_enemy":0,
+                        "text":"你需要拿出一个宅邸用来设宴"
+                }
+        }
+    } 

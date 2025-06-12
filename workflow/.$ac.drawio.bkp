@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2025-06-11T03:06:57.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="22AwXM7_-EOa1GxHELD-" version="24.5.3" type="device">
+<mxfile host="Electron" modified="2025-06-11T17:54:06.448Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="BOI-3SuG85PhhuXbf3-S" version="24.5.3" type="device">
   <diagram name="Page-1" id="yZ-xAedIctqZgvHN8nGH">
     <mxGraphModel dx="2035" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -222,8 +222,10 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-56" value="莎姬要和主角睡&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="810" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-58" target="82Vmk0w9NgiGbKGh9TBM-60">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-62" value="帮助教团任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-61">
           <mxGeometry x="-0.4" relative="1" as="geometry">
@@ -244,24 +246,25 @@
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-58" value="完成首次会见阿卜德" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="395" y="520" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-60" target="82Vmk0w9NgiGbKGh9TBM-63">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="82Vmk0w9NgiGbKGh9TBM-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="600" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-66" value="开启了猎奴人线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-65">
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-66" value="匪帮成立" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-65">
           <mxGeometry x="0.24" y="-1" relative="1" as="geometry">
             <mxPoint x="-20" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82Vmk0w9NgiGbKGh9TBM-60" target="82Vmk0w9NgiGbKGh9TBM-67">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-69" value="猎奴人还没完全死亡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-68">
-          <mxGeometry x="-0.0612" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="82Vmk0w9NgiGbKGh9TBM-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="600" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="82Vmk0w9NgiGbKGh9TBM-60" value="开启追杀奴隶军" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="610" width="60" height="40" as="geometry" />
+        <mxCell id="82Vmk0w9NgiGbKGh9TBM-182" value="匪帮没有成立" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82Vmk0w9NgiGbKGh9TBM-68">
+          <mxGeometry x="0.2677" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="82Vmk0w9NgiGbKGh9TBM-63" value="宰相说坏话，苏丹的猜忌+3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="680" width="100" height="70" as="geometry" />

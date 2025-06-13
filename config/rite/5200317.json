@@ -272,7 +272,7 @@
                 "open_adsorb":1,
                 "is_key":0,
                 "is_empty":0,
-                "is_enemy":1,
+                "is_enemy":0,
                 "text":"一支精锐的部队，拥护着他们世世代代的主人"
             }
         }

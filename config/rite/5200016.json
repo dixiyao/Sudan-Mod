@@ -1,0 +1,436 @@
+ {
+        "id": 5200016,
+        "name": "女术士的苏丹卡小卖部",
+        "text": "女术士开了个小卖部，你可以去她那里购买更多的苏丹卡",       
+        "tips": "",
+        "once_new":-1,
+        "round_number": 0,
+        "waiting_round":0,
+        "waiting_round_end_action":[
+        ],        
+        "method_settlement": "",
+        "auto_begin": 0, 
+        "auto_result": 0,//需要手动启动
+        "location": "神殿区:[4,7]",
+        "icon": "rite_6", 
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },       
+        "tips_text":[
+            "第一排，放入金币，选择需要购买的苏丹卡类别",
+            "第二排，放入金币，选择需要购买的苏丹卡等级",
+        ],
+        "open_conditions": [
+            {
+                "condition": {
+                    "any":{
+                        "s1":1,
+                        "s2":1,
+                        "s3":1,
+                        "s4":1,
+                    },
+                    "any":{
+                        "s5":1,
+                        "s6":1,
+                        "s7":1,
+                        "s8":1,
+                    },
+                },
+                "tips": "每次只能买一张"
+            }
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                    "s1":1,  
+                    "s5":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张岩石杀戮卡",
+                "result": 
+                {
+                    "card":2010001 //岩石杀戮卡
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s1":1,  
+                    "s6":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张青铜杀戮卡",
+                "result": 
+                {
+                    "card":2010002 
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s1":1,  
+                    "s7":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张白银杀戮卡",
+                "result": 
+                {
+                    "card":2010003 
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s1":1,  
+                    "s8":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张黄金杀戮卡",
+                "result": 
+                {
+                    "card":2010004
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s2":1,  
+                    "s5":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张岩石纵欲卡",
+                "result": 
+                {
+                    "card":2010005 //岩石杀戮卡
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s2":1,  
+                    "s6":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张青铜纵欲卡",
+                "result": 
+                {
+                    "card":2010006
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s2":1,  
+                    "s7":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张白银纵欲卡",
+                "result": 
+                {
+                    "card":2010007
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s2":1,  
+                    "s8":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张黄金纵欲卡",
+                "result": 
+                {
+                    "card":2010008
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s3":1,  
+                    "s5":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张岩石奢靡卡",
+                "result": 
+                {
+                    "card":2010009 //岩石杀戮卡
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s3":1,  
+                    "s6":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张青铜奢靡卡",
+                "result": 
+                {
+                    "card":2010010
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s3":1,  
+                    "s7":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张白银奢靡卡",
+                "result": 
+                {
+                    "card":2010011 
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s3":1,  
+                    "s8":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张黄金奢靡卡",
+                "result": 
+                {
+                    "card":2010012
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s4":1,  
+                    "s5":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张岩石征服卡",
+                "result": 
+                {
+                    "card":2010013
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s4":1,  
+                    "s6":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张青铜征服卡",
+                "result": 
+                {
+                    "card":2010014 
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s4":1,  
+                    "s7":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张白银奢靡卡",
+                "result": 
+                {
+                    "card":2010015 
+                },
+                "action": {
+                
+                }
+            },
+            {
+                "condition": {
+                    "s4":1,  
+                    "s8":1
+                },
+                "result_title":"",
+                "result_text": "你买了一张黄金奢靡卡",
+                "result": 
+                {
+                    "card":2010016
+                },
+                "action": {
+                
+                }
+            }
+        ],               
+        "settlement_extre": [
+            {
+                "condition": {
+                },
+                "result_title":"",
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "rite": 5200016 //重置小卖部
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s2":1,
+                        "!s3":1,
+                        "!s4":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张杀戮卡"
+                },
+            "s2":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s1":1,
+                        "!s3":1,
+                        "!s4":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张纵欲卡"
+                },
+            "s3":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s1":1,
+                        "!s2":1,
+                        "!s4":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张奢靡卡"
+                },
+            "s4":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s1":1,
+                        "!s2":1,
+                        "!s3":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张征服卡"
+                },
+            "s5":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s6":1,
+                        "!s7":1,
+                        "!s8":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张岩石卡"
+                },
+            "s6":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s5":1,
+                        "!s7":1,
+                        "!s8":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张青铜卡"
+                },
+            "s7":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s5":1,
+                        "!s6":1,
+                        "!s8":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张白银卡"
+                },
+            "s8":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "cost.金币":2,
+                        "!s5":1,
+                        "!s6":1,
+                        "!s7":1
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":1,
+                    "is_enemy":0,
+                    "text":"来一张黄金卡"
+                }
+        }
+    } 

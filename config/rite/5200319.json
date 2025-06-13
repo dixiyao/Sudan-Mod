@@ -109,17 +109,18 @@
                 "action": {
                 }
             },
-            "condition": {   //你的回合
+            {
+                "condition": {   //你的回合
                     "r1:战斗+体魄-e(战斗+体魄)>=":[3,5],
                     "s1":1,
-                    "s7.杀戮":1,
+                    "s7.杀戮":1
                 },
                 "result_title":"到此为止了",
                 "result_text": "你残忍的隔断了这个蛮族女战士的喉咙，以此作为表率来镇压那些试图挑战权力的人。",
                 "result": 
                 {
                     "clean.s1":1,
-                    "clean.s7:1"
+                    "clean.s7":1
                 },
                 "action": {
                 }
@@ -175,7 +176,7 @@
                             "f:s3.体魄+s3.战斗+s4.体魄+s4.战斗+s5.体魄+s5.战斗+s6.体魄+s6.战斗+s7.体魄+s7.战斗-s1.体魄-s1.战斗-s2.体魄-s2.战斗<": 3
                         },
                         "action":{
-                            "pop.5002031_s3_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200319_s3_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -184,7 +185,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s3_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200319_s3_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 
@@ -206,7 +207,7 @@
                             "f:s3.体魄+s3.战斗+s4.体魄+s4.战斗+s5.体魄+s5.战斗+s6.体魄+s6.战斗+s7.体魄+s7.战斗-s1.体魄-s1.战斗-s2.体魄-s2.战斗<": 3
                         },
                         "action":{
-                            "pop.5002031_s4_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200319_s4_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -215,7 +216,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s4_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200319_s4_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 
@@ -237,7 +238,7 @@
                             "f:s3.体魄+s3.战斗+s4.体魄+s4.战斗+s5.体魄+s5.战斗+s6.体魄+s6.战斗+s7.体魄+s7.战斗-s1.体魄-s1.战斗-s2.体魄-s2.战斗<": 3
                         },
                         "action":{
-                            "pop.5002031_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200319_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -246,7 +247,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200319_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 
@@ -257,7 +258,7 @@
                 {
                     "type":"item",
                     "cost.消耗品=":1,
-                        "!金币":1      
+                    "!金币":1      
                 },
                 "open_adsorb":0,
                 "is_key":0,

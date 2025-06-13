@@ -1,0 +1,35 @@
+{
+    "id": 5400300,
+    "text": "获得袖剑",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start_init": [1],
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1 //每回合刷一次
+    },
+    "condition":
+    {
+        "counter.7000713<":1,
+        "counter.7000426>=":10, //盲盒购买次数>=10
+        "have.2000114.追随者":1, //古利斯
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "counter+7000713":1,
+                "card":[2001152,"已拥有"],
+                "event_on": 5400306, //古利斯找你
+                "success":{
+                    "prompt":{
+                        "id": "5400300_prompt_01",
+                        "text":"听说你有个手下对一个没有什么用的武器很感兴趣，因为你在赃物商人这里购买东西的次数足够多，他准备把这个看似没什么用的东西送给你",
+                        "icon":"common/position_shangye_1"
+                    }
+                }
+            }
+        }
+
+    ]
+}

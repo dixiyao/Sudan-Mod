@@ -14,7 +14,7 @@
         "auto_result": 0,
         "location": "结局:7",
         "type":"END", 
-        "icon": "rite/ex_3", 
+        "icon": "ex_3", 
         "tag_tips": [  
         ],
         "tag_tips_up":{
@@ -115,7 +115,7 @@
                     "total.奈布哈尼准备银趴-奈布哈尼准备银趴":1, 
                     "total.2000771-芮尔":1,
                     "total.2000199-书店老板":1, 
-                    "even_on":5400324
+                    "event_on":5400324
                 }
             }
         ],

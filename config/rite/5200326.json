@@ -120,7 +120,7 @@
                                 "f:s3.体魄+s3.战斗+s2.体魄+s2.战斗-s1.战斗-s1.体魄-s1.隐匿<": 3
                             },
                             "action":{
-                                "pop.5002031_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                                "pop.5200326_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                             }
                         },
                         {
@@ -129,7 +129,7 @@
                                 "!s6":1
                             },
                             "action":{
-                                "pop.5002031_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                                "pop.5200326_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                             }
                         }
                     ] 
@@ -152,7 +152,7 @@
                             "f:s3.体魄+s3.战斗+s2.体魄+s2.战斗-s1.战斗-s1.体魄-s1.隐匿<": 3
                         },
                         "action":{
-                            "pop.5002031_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200326_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -161,7 +161,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200326_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 
@@ -185,7 +185,7 @@
                             "f:s3.体魄+s3.战斗+s2.体魄+s2.战斗-s1.战斗-s1.体魄-s1.隐匿<": 3
                         },
                         "action":{
-                            "pop.5002031_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
+                            "pop.5200326_s5_01.self":"以目前己方的<b><color=white>【体魄】</color></b>和<b><color=white>【战斗】</color></b>能力，就不要去找死了。"
                         }
                     },
                     {
@@ -194,7 +194,7 @@
                             "!s6":1
                         },
                         "action":{
-                            "pop.5002031_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
+                            "pop.5200306_s5_02.self":"如果有<b><color=white>【情报】</color></b>支持的话，可以多一分胜算。"
                         }
                     }
                 ] 

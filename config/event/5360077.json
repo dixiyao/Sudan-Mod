@@ -8,7 +8,7 @@
         "round_begin_ba":1 //每回合刷一次
     },
     "condition":{  //条件
-        "global_counter.7210001>=":14//折断了苏丹卡14张
+        "counter.7000800>=":14//折断了苏丹卡14张
     },
     "settlement": [    //效果 
         {

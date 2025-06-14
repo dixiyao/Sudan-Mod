@@ -1,6 +1,6 @@
 {
-    "id": 5360076,
-    "text": "第21天生成女术士三件套",     
+    "id": 5360077,
+    "text": "苏丹赏赐",     
     "is_replay": 0, //是否可以重复触发
     "auto_start_init": [1],
     "start_trigger": false, // 是否启动就立即开始校验条件
@@ -8,19 +8,19 @@
         "round_begin_ba":1 //每回合刷一次
     },
     "condition":{  //条件
-        "counter.7000060>=":10
+        "global_counter.7210001>=":14//折断了苏丹卡14张
     },
     "settlement": [    //效果 
         {
             "tips_resource":"", 
             "tips_text":"",
             "action":{
-                "rite":5200016,
+                "rite":5200017,
                 "success":{
                     "prompt":{
-                        "id": "5360076_prompt_01",
-                        "text":"女术士发现你玩这个游戏还挺在行，准备给你点小活动",
-                        "icon":"common/position_shenmiao_1",
+                        "id": "5360077_prompt_01",
+                        "text":"由于你折断了不少苏丹卡，苏丹打算给你一些赏赐",
+                        "icon":"cards/sudan",
                     }
                 }
             }

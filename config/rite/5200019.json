@@ -1,0 +1,96 @@
+ {
+        "id": 5200019,
+        "name": "苏丹的赏赐",
+        "text": "苏丹邀请你到皇宫受赏",       
+        "tips": "",
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":0,
+        "waiting_round_end_action":[
+        ],        
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result": 0,
+        "location": "宫廷:[2,6]", 
+        "icon": "rite_9", 
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "会有什么惊喜呢"
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{  
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                },
+                "result_title":"大大的奖励",
+                "result_text": "其实苏丹本来的计划是，因为你良好的表现，他打算帮你消除一张苏丹卡。但是借着你由三寸不烂之舌打造的忽悠能力和集大成于一体的搅屎功夫，你让苏丹相信保留一张苏丹卡，可以以便在他无聊的时候给他带来有趣的事情。因此，他允许你现在手里这张苏丹卡没有使用期限。但是如果你抽一张新卡，还是要继续遵守游戏规则。",
+                "result": 
+                {
+                    "s1+冻结":1,
+                },
+                "action": {
+
+                }
+            }
+        ],               
+        "settlement_extre": [
+            
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        "type":"sudan"
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0, // 不能为空
+                    "is_enemy":0, 
+                    "text":"放入苏丹卡",                   
+                    "pops":[
+                        {
+                            "condition":{
+                            },
+                            "action":{
+                                "pop.5200017_s1_01.self":"<i>（震动）</i>"
+                            }
+                        }
+                    ] 
+                    
+                },
+            "s2":
+            {
+                "condition":
+                {
+                    "type":"char",    
+                    "主角":1
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"主角",
+                "pops":[
+                        {
+                            "condition":{
+                            },
+                            "action":{
+                                "pop.5200017_s2_01.self":"会有什么好事呢？"
+                            }
+                        }
+                    ] 
+            }
+        }
+    } 

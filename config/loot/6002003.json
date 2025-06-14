@@ -1,0 +1,61 @@
+{
+    "id": 6002003,
+    "name": "冒险者协会探险",
+    "repeat": 1,
+    "type": 2, 
+    "item": [
+        {
+            "condition":{
+                "counter.7000901<":2, 
+            },
+            "num" : "1",
+            "id" : "5200401", // 石中剑和阿瓦隆
+            "type" : "rite",
+            "weight" : 60
+        },
+        {
+            "condition":{
+                "counter.7000902<":1,
+            },
+            "num" : "1",
+            "id" : "5200402", //魔戒和龙蛋
+            "type" : "rite",
+            "weight" : 60
+        },
+        {
+            "condition":{
+                "counter.7000903<":1,
+            },
+            "num" : "1",
+            "id" : "5200403", // 珍禽帽，东部传说背包
+            "type" : "rite",
+            "weight" : 60
+        },
+        // {
+        //     "condition":{
+        //         "counter.7000904<":1,
+        //     },
+        //     "num" : "1",
+        //     "id" : "5200404", //复活龙,
+        //     "type" : "rite",
+        //     "weight" : 60
+        // },
+        {
+            "condition":{
+                "counter.7000905<":1,
+            },
+            "num" : "1",
+            "id" : "5200405", //秘银匕首和贤者之石
+            "type" : "rite",
+            "weight" : 60
+        },
+        {
+            "condition":{
+            },
+            "num" : "1",
+            "id" : "5200400", //保底冒险，没活了
+            "type" : "rite",
+            "weight" : 60
+        },
+    ]
+}

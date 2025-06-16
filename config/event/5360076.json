@@ -1,6 +1,6 @@
 {
     "id": 5360076,
-    "text": "第21天生成女术士三件套",     
+    "text": "第21天生成女术士小卖部",     
     "is_replay": 0, //是否可以重复触发
     "auto_start_init": [1],
     "start_trigger": false, // 是否启动就立即开始校验条件

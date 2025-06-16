@@ -17,26 +17,6 @@
         "tag_rank": 50,
         "attributes": {}
     },
-    "dragon_head_kept":
-    {
-        "id": 3020301,
-        "name": "被阿迪莱的部落保管",
-        "code": "dragon_head_kept",
-        "type": "attribute",
-        "text": "龙头现在被阿迪莱的部落保管", //防止被使用
-        "tips": "",
-        "resource": "tag_0",
-        "can_add": 0,
-        "can_visible": 1,
-        "can_inherit": 0,
-        "can_nagative_and_zero": 0,
-        "fail_tag": [],
-        "tag_vanishing": 0,
-        "tag_sfx": "",
-        "tag_rank": 30,
-        "attributes": {
-        }
-    },
     "with_nayila":
     {
         "id": 3020302,
@@ -44,26 +24,6 @@
         "code": "with_nayila",
         "type": "attribute",
         "text": "与娜依拉进行过交欢", //防止被使用
-        "tips": "",
-        "resource": "tag_0",
-        "can_add": 0,
-        "can_visible": 1,
-        "can_inherit": 0,
-        "can_nagative_and_zero": 0,
-        "fail_tag": [],
-        "tag_vanishing": 0,
-        "tag_sfx": "",
-        "tag_rank": 30,
-        "attributes": {
-        }
-    },
-    "adventure_treasure":
-    {
-        "id": 3020303,
-        "name": "冒险者协会战利品",
-        "code": "adventure_treasure",
-        "type": "attribute",
-        "text": "冒险者协会探索获得的战利品", //防止被使用
         "tips": "",
         "resource": "tag_0",
         "can_add": 0,

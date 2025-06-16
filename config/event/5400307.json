@@ -1,0 +1,33 @@
+{
+    "id": 5400307,
+    "text": "古利斯刺杀",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba": 1
+    },
+    "condition":{  //条件
+        "table_have.2000114":1, //古利斯还活着
+        "counter.7000708>=":1, //古利斯持有袖剑
+        "any":{
+            "counter.7100002>=":20, 
+            "hand_have.2001154>=":4 //帮了四个圣殿骑士
+        }
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "rite": 5200311,
+                "prompt":{
+                        "id":"5400307_prompt_01",
+                        "text":"因为你做了太多违反信条的事情，古利斯决定先斩后患",
+                        "icon":["cards/2000114_1"]
+                    }
+            }
+        }
+
+    ]
+}

@@ -1,0 +1,155 @@
+ {
+        "id": 5200323,
+        "name": "刺杀苏丹",
+        "text": "你已经积攒了足够的信仰，也有能够帮助你完成刺杀壮举的人，接下来就是选择好的时机，结束游戏",       
+        "tips": "",
+        "mapping_id":8001187,
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":0,
+        "waiting_round_end_action":[
+        ],        
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result": 0,
+        "location": "结局:7",
+        "type":"END", 
+        "icon": "ex_3", 
+        "tag_tips": [  
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "本事件启动后，将直接开启刺杀，导向结局",
+            "古利斯可以一击致命，但是请确保苏丹没有反制手段",
+            "女术士在你完成刺杀以后可能会干扰你的行动"
+        ],
+        "open_conditions": [
+            {
+                "condition": {
+                    "table_have.2000114":1
+                },
+                "tips": "古利斯需要空闲才能帮你完成刺杀"
+            }
+    ],
+        "random_text":{
+        },
+        "random_text_up":{        
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition":
+                {
+                    "have.2000024.魔力戒指":1, //苏丹有戒指
+                },
+                "result_title":"同归于尽",
+                "result_text": "无形者在城中大闹制造混乱，苏丹的军队忙的不可开交，宫廷中近卫和禁军时刻准备着，而苏丹则是躲在自己的房间中。然而古利斯穿过漆黑的下水道，偷偷的从密道中出现，抬手剑，隔断了苏丹的喉咙。然而随即，死亡的威胁唤醒了魔戒的力量，一阵猩红色的光芒淹没了你们……你和古利斯在光芒中被撕的粉碎。",
+                "result": 
+                {    
+                },
+                "action":
+                {
+                    "over":13
+                }
+            }
+        ],        
+        "settlement_extre": [
+            {
+                "condition":
+                {
+                    "!have.2000024.魔力戒指":1, //苏丹没有戒指
+                },
+                "result_title":"城中大乱",
+                "result_text": "无形者在城中大闹制造混乱，苏丹的军队忙的不可开交",
+                "result": 
+                {    
+                },
+                "action":
+                {
+                }
+            },
+            {
+                "condition":
+                {
+                    "!have.2000024.魔力戒指":1, //苏丹没有戒指
+                    "have.2000312":1, //奈费勒
+                    "have.2000312.秘誓":1,
+                },
+                "result_title":"永远的政敌",
+                "result_text": "今天是朝堂上你和奈费勒吵得最不可开交的一天，然而事实是你在从无形者的据点回来当天，就找到了奈费勒。你把无形者和信条的故事说给了他，打动了他，“这正是我们所需要的”。因此他约定和你在朝堂大闹，苏丹被你们吵的受不了回到了寝宫中。",
+                "result": 
+                {    
+                },
+                "action":
+                {
+                }
+            },
+            {
+                "condition":
+                {
+                    "!have.2000024.魔力戒指":1, //苏丹没有戒指
+                },
+                "result_title":"",
+                "result_text": "寝宫中苏丹待在自己的床位边，一边关注着城中动乱，一边思考今天该宠幸哪个妃子。古利斯从密道中钻出，袖剑瞬间撕裂了他的喉咙。",
+                "result": 
+                {    
+                   "s1+正当性":1, //用于结局结算
+                },
+                "action":
+                {
+                    "clean.rite":1, //移除所有仪式
+                    "event_off":1, //关闭所有幕后  
+                    "delay_off":1, //关闭所哟delay
+                    "table.2000024=上朝":0, //移除苏丹的吸附指定
+                    "total.2001019+冻结":1, //冻结莎姬的信物
+                    "total.sudan+冻结":1, //冻结苏丹卡
+                    "total.2000680+冻结":1, //冻结猜忌
+                    "sudan_pool.sudan+冻结":1, //冻结池子里的苏丹卡
+                    "enable_auto_gen_sudan_card": false, //禁用自动生成抽卡
+                    "total.侍奉苏丹-侍奉苏丹":1, //移除已经无用的锁定tag
+                    "total.侍奉苏丹2-侍奉苏丹2":1,
+                    "total.火焰大王-火焰大王":1,
+                    "total.追随的人-追随的人":1,
+                    "total.奈布哈尼准备银趴-奈布哈尼准备银趴":1, 
+                    "total.2000771-芮尔":1,
+                    "total.2000199-书店老板":1, 
+                    "event_on":5400324
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "is": 2001155 // 无形者
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0, // 不能为空
+                    "is_enemy":0, 
+                    "text":"无形者会在你们行动的时候制造混乱"
+                },
+            "s2":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "any":
+                            {
+                                "is": 2001151,
+                                "is": 2000283
+                            }
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"直通苏丹房间或者后宫的密道"
+                }
+        }
+    } 

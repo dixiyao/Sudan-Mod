@@ -1,0 +1,29 @@
+{
+    "id": 5400311,
+    "text": "古利斯刺客--莎姬会面",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":1 // 仪式开始时
+    },
+    "condition":{
+        "table_have.2000010": 1,  //莎姬空闲
+        "counter.7000532>=":1, //已经为莎姬解决了问题
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "prompt":{
+                        "id":"5400311_prompt_01",
+                        "text":"因为你之前帮助过莎姬，她同意了你关于讨论教团和无形者的请求。",
+                        "icon":["cards/2000010"]
+                    },
+                "rite": 5200315
+            }
+        }
+
+    ]
+}

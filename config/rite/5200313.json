@@ -1,0 +1,187 @@
+ {
+    "id": 5200313,
+    "name": "会见伊玛尼",
+    "text": "因为你多次的良好表现，伊玛尼愿意和你再进一步交流",       
+    "tips": "",
+    "once_new":0,
+    "round_number": 1,
+    "waiting_round":7,
+    "waiting_round_end_action":[],
+    "method_settlement": "",
+    "auto_begin": 0,
+    "auto_result":0,
+    "location": "神殿区:[2,10]", 
+    "icon": "rite_9",  
+    "tag_tips": [
+			"魅力"
+    ],
+    "tag_tips_up":{
+		"tips":["魅力"],
+        "type":"normal_result"
+    }, 
+    "tips_text":[
+
+    ],
+    "open_conditions": [
+            {
+                "condition": {
+                    "any":{
+                       "s2":1,
+                       "s4":1, 
+                    }
+                }
+            }
+    ],
+    "random_text": {        
+       
+    },
+    "random_text_up":{
+        "r1":{
+            "text":"我的学识远超你的想象",
+            "type":"fight_result",
+            "type_tips":"如果你要折断苏丹卡，你需要足够高的魅力",
+            "low_target": 1,
+            "low_target_tips": "你需要8点魅力才能够打动她"
+        }
+       
+    },
+    "random_effect": {          
+    },
+    "settlement_prior": 
+    [
+        
+    ],                            
+    "settlement": [
+        {
+            "condition": {
+                "s4.杀戮":1  
+            },
+            "result_title": "别把愚昧当知识",
+            "result_text": "你掏出一张杀戮卡，这个老人面目表情，只是虔诚的祈祷好想她相信的神能够救她一般。你没有犹豫的把她的头颅割下，在你眼里，她只不过是教团的一个牺牲品罢了又或者是你完成苏丹的游戏的牺牲品。",
+            "result": 
+            {
+                "clean.s4":1, //折断杀戮
+                "card":[2001153,"已拥有+1"] //信条+1
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s4.纵欲": 1,
+                "s2.is":2000728,
+                "r1:s3.魅力>=":[1,5]
+            },
+            "result_title": "无尽学识",
+            "result_text": "你先是拿出了足够说服伊玛尼的东西，一张至高无上对完美世界的幻想图。她相信你才是真正能够带领教会走向未来的人才。接着，你掏出了一个更令人兴奋的卡牌，还未等你开口，这个教法学者已经把双腿张开了。她经验丰富的让你感觉获得了前所未有的体验。你发现，她在那方面的知识远超她在教法方面的学识。今天你在无数的赞颂和祝祷声中度过了难忘的一天。",
+            "result": 
+            {
+                "clean.s4":1, //折断纵欲
+                "card":[2001153,"已拥有+1"], //信条
+                "s1+支持": 3,
+                "s1=反对": 0, 
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "any":{
+                    "s2.is":2000728,
+                    "all":{
+                        "s4.纵欲": 1,
+                        "s2.is":2000728,
+                        "r1:s3.魅力<":[1,5]
+                    }
+                }
+            },
+            "result_title": "我将追随你",
+            "result_text": "你拥有对神更加深入的了解，伊玛尼认为你的信仰至高无上。你足够劝说她放弃之前对于教会维护秩序的理论，转而她相信，阿尔图大人，才是真正的引领者。",
+            "result": 
+            {
+                "card":[2001153,"已拥有+1"], //信条
+                "s1+支持": 3,
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
+                "s2":1
+            },
+            "result_title": "虔诚的信徒",
+            "result_text": "鉴于你之前的虔诚表现，伊玛尼认为你很合适加入智者团队，维护这个世界的秩序。尽管你并不是出于主动，但是现在圣殿骑士团更加愿意接纳你了。当然无形者也从暗中知道了这件事情",
+            "result": 
+            {
+                "card":[2001154,"已拥有+1"] //圣殿骑士团+1
+            },
+            "action": {
+            }
+        },
+    ],
+    "settlement_extre": [
+    ],    
+    "cards_slot":
+    {
+        "s1":
+        {
+            "condition":
+            {
+                "type":"char",
+                "is": 2000059 //伊玛尼
+            },
+            "open_adsorb":1,
+            "is_key":0,
+            "is_empty":0,
+            "is_enemy":0,
+            "text":"教法学者"
+        },
+        "s2":
+        {
+            "condition":
+            {
+                "type":"item",
+                "any":{
+                    "is": 2000725,
+                    "is": 2000726,
+                    "is": 2000727,
+                    "is": 2000728,
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":0,
+            "is_enemy":0,
+            "text":"你需要有纯净思想才有机会面见她"
+        },
+        "s3":
+        {
+            "condition":
+            {
+                "type":"char",
+                "主角":1
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":0,
+            "is_enemy":0,
+            "text":"你得亲自面见"
+        },
+        "s4":
+        {
+            "condition":
+            {
+                "type":"sudan",
+                "any":{
+                    "纵欲":1,
+                    "杀戮":1
+                }
+            },
+            "open_adsorb":0,
+            "is_key":0,
+            "is_empty":1,
+            "is_enemy":0,
+            "text":"你可是“吃杀草”老爷"
+        },
+    }
+} 

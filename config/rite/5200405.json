@@ -1,0 +1,174 @@
+ {
+        "id": 5200405,
+        "name": "爱探险的哲巴尔",
+        "text": "阿迪莱和哲巴儿带领的冒险者协会就要出发了，希望他们不会遇上捣蛋鬼，能带回来一些战利品。这次的目的地未知。",       
+        "tips": "",
+        "mapping_id":8001262,   
+        "once_new":0,
+        "round_number": 3, //需要3回合
+        "waiting_round":1, 
+        "waiting_round_end_action":[
+        ],
+        "method_settlement": "",
+        "auto_begin": 1,
+        "auto_result":0,
+        "location": "野外:[9,14]", 
+        "icon": "rite_4",  
+        "tag_tips": [
+            "魔力",
+            "生存",
+            "隐匿",
+            "智慧"
+        ],
+        "tag_tips_up":{
+            "tips":["魔力","生存","隐匿","智慧"],
+            "type":"normal_result"
+        },
+        "tips_text":[
+            "耗时长久，请做好准备",
+            "探索的成败取决于魔力，生存，隐匿，智慧"
+        ],
+        "open_conditions": [
+        ],
+        "random_text": {    
+            "r1":"穿越黑魔力之地和鬼怪树林"    
+        },
+        "random_text_up":{
+            "r1":{
+                "text":"穿越黑魔力之地和鬼怪树林",
+                "type":"normal_result",
+                "type_tips":"你的魔力，生存，智慧，和隐匿为你提供了完整的骰子数量。",
+                "low_target": 5,
+                "low_target_tips": "你至少需要5点成功才能抵达目的地。"
+            }
+        },
+        "random_effect": {          
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                    "r1:魔力+生存+隐匿+智慧>=":[10,5]
+                },
+                "result_title":"秘银之地",
+                "result_text": "冒险者小队踏上前往秘银之地的旅程。传说那里埋藏着古代贤者遗落的魔力矿脉，地面时常浮现银光，而空气中回荡着吟唱之声。一路上怪事频出——会漂浮的山石、倒着说话的猫头鹰、能从影子里伸出手的藤蔓。山路尽头，是一片被迷雾笼罩的森林。树根下藏着说谎的石头精灵，溪水里漂浮着会咬人的光球。队伍在一座银叶构成的拱门前驻足。阿迪莱点燃护符，哲巴尔拔出短剑，进入拱门。三日后，他们凯旋归来。背囊中带着一颗仍在发光的秘银心核",
+                "result": 
+                {
+                    "s1+魔力":1,//属性奖励
+                    "s2+魔力":1,//属性奖励
+                    "s3+魔力":1,//属性奖励
+                    "counter+7000905":1,
+                    "card":[2002011,"已拥有+1"],
+                    "card":[2002012,"已拥有+1"],
+                },
+                "action": {      
+                }
+            },
+            {
+                "condition": {
+                    "r1:魔力+生存+隐匿+智慧<":[10,5]
+                },
+                "result_title":"冒险失败",
+                "result_text": "冒险者小队踏入秘银之地，在到达银叶拱门之后，毛手毛脚的哲巴尔惊动了沉睡的守卫兽。阿迪莱重伤，哲巴尔抱起她，仓皇撤退。小队历尽艰险，总算逃出迷雾森林。回到营地时，身上泥泞狼狈，背囊空空如也。哲巴尔叹道：“下次……我们带个能和守卫谈判的。",
+                "result": 
+                {
+                    "s2+equip":2000098  //受伤
+                },
+                "action": {      
+                    //不成功之后还是会随机到
+                }
+            }
+        ],                
+        "settlement_extre": [
+        ],
+        "cards_slot":
+        {
+            "s1":
+            {
+                "condition":
+                {
+                    "is": 2000054 , //将军自己
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"爱冒险的将军，今次会来吗？"
+            },
+            "s2":
+            {
+                "condition":
+                {
+                    "is": 2000061
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"一起去冒险的阿迪莱"
+            },
+            "s3":
+            {
+                "condition":
+                {
+                    "type":"char",
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"你可以派一个追随者一同前去,可没说猫猫和怪物不能去"
+            },
+            "s4":
+            {
+                "condition":
+                {
+                    "is":2000119,
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"冒险者小队队长"
+            },
+            "s5":
+            {
+                "condition":
+                {
+                    "type":"item",
+                    "cost.金币":5
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"你必须投入5金币作为冒险资金"
+            },
+            "s6":
+            {
+                "condition":
+                {
+                    "type":"item",
+                    "cost.消耗品=": 1      
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"有些道具能在冒险中派上用场"
+            },
+            "s7":
+            {
+                "condition":
+                {
+                    "is":2000120,
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"冒险者小队"
+            },
+        }
+    } 

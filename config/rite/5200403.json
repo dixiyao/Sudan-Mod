@@ -1,0 +1,170 @@
+ {
+        "id": 5200403,
+        "name": "爱探险的哲巴尔",
+        "text": "阿迪莱和哲巴儿带领的冒险者协会就要出发了，希望他们不会遇上捣蛋鬼，能带回来一些战利品。这次的目的地未知。",       
+        "tips": "荒野大镖客2的彩蛋，里面的主人公，亚瑟·摩根善名高是鹿，恶名高是狼，老鼠指的是叛徒麦卡。",
+        "mapping_id":8001262,   
+        "once_new":0,
+        "round_number": 3, //需要3回合
+        "waiting_round":1, 
+        "waiting_round_end_action":[
+        ],
+        "method_settlement": "",
+        "auto_begin": 1,
+        "auto_result":0,
+        "location": "野外:[9,14]", 
+        "icon": "rite_4",  
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "给阿迪莱的哲巴尔的纸条上写:",
+            "善者为鹿，恶者为狼"
+        ],
+        "open_conditions": [
+        ],
+        "random_text": {    
+            "r1":"好人还是坏人？"     
+        },
+        "random_text_up":{
+            "r1":{
+                "text":"你是鹿还是狼？",
+                "type":"normal_result",
+                "type_tips":"你的善名减去恶名为你提供了完整的骰子数量。",
+                "low_target": 1,
+                "low_target_tips": "你至少需要1点成功才能抵达目的地。"
+            }
+        },
+        "random_effect": {          
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                    "r1:counter.7100001-counter.7100002>=":[1,5]   
+                },
+                "result_title":"救赎",
+                "result_text": "本来以为会是一趟无聊的冒险，直到大家突然遇到了一头带着奇怪帽子，背着兽皮背包的鹿。哲巴尔踩到一个深坑，被里面的树枝插到腿里了，鹿帮着把他从里面拽出来，神奇的是鹿舔过的伤口很快愈合了。鹿低下头，取下帽子，戴在哲巴尔头上。然后，转身，踏着朝阳，独自走向山巅，谁也没说话。",
+                "result": 
+                {
+                    "s1+生存":1,//属性奖励
+                    "s2+生存":1,//属性奖励
+                    "s3+生存":1,//属性奖励
+                    "counter+7000903":1,
+                    "card":[2002009,"已拥有+1"],
+                    "card":[2002010,"已拥有+1"],
+                },
+                "action": {
+                    //亚瑟摩根，之后会加一个任务，在亚瑟王之后，摩根本来也是里面的女巫
+                }
+            },
+            {
+                "condition": {
+                    "r1:counter.7100001-counter.7100002<":[1,5]   
+                },
+                "result_title":"救赎？",
+                "result_text": "原本以为只是一只普通的狼，谁知那独狼异常凶狠，几次扑击几乎咬穿了阿迪莱的护腕。它眼中没有野性，只有不甘与痛苦，像是被放逐又不肯低头的影子。激战之后，众人勉强保住一命，狼却静静躺下，望着天，没再动弹。哲巴尔蹲下身，说它像极了一个老朋友。临走前，你们发现这片山林到处都是老鼠——阴湿、尖啸、成群结队地跟着影子爬。空气里也开始有些说不清的冷。",
+                "result": 
+                {
+                    "s1+equip":2000098,  //受伤
+                    "s2+equip":2000098  //受伤
+                },
+                "action": {      
+                    //不成功之后还是会随机到
+                }
+            }
+        ],                
+        "settlement_extre": [
+        ],
+        "cards_slot":
+        {
+            "s1":
+            {
+                "condition":
+                {
+                    "is": 2000054 , //将军自己
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"爱冒险的将军，今次会来吗？"
+            },
+            "s2":
+            {
+                "condition":
+                {
+                    "is": 2000061
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"一起去冒险的阿迪莱"
+            },
+            "s3":
+            {
+                "condition":
+                {
+                    "type":"char",
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"你可以派一个追随者一同前去,可没说猫猫和怪物不能去"
+            },
+            "s4":
+            {
+                "condition":
+                {
+                    "is":2000119,
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"冒险者小队队长"
+            },
+            "s5":
+            {
+                "condition":
+                {
+                    "type":"item",
+                    "cost.金币":5
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"你必须投入5金币作为冒险资金"
+            },
+            "s6":
+            {
+                "condition":
+                {
+                    "type":"item",
+                    "cost.消耗品=": 1      
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":1,
+                "is_enemy":0,
+                "text":"有些道具能在冒险中派上用场"
+            },
+            "s7":
+            {
+                "condition":
+                {
+                    "is":2000120,
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"冒险者小队"
+            },
+        }
+    } 

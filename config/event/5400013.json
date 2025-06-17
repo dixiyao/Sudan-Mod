@@ -1,0 +1,29 @@
+{
+    "id": 5400013,
+    "text": "偷偷撅苏丹事件",     
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false, 
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":3
+    },
+    "condition":{  //条件
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{        
+				"rite":5200020,
+                "success":{
+                    "prompt": {
+                        "id": "prompt_5400013_01",
+                        "text": "嘿嘿，有了办法潜入苏丹的房间，你有了绝妙的计划",
+                        "icon":"cards/200001"
+                    },
+                }
+            }	
+        }
+
+    ]
+}

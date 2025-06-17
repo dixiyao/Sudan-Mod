@@ -1,0 +1,26 @@
+{
+    "id": 5400327,
+    "text": "石中剑事件激活提示",     
+    "is_replay": 1, //是否可以重复触发
+    "auto_start_init": [1],
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba": 1
+    },
+    "condition":{  //条件
+        "hand_have.2002013":1, //在手牌区
+        "have.2000959":1
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "event_on": 5400329,
+                "hand_pop.5400327.2002013": "你对这个故事传闻有了新的想法<color=white><size=172%>俺寻思</size></color>。",
+                "table.2002013+事件提示":1
+            }
+        }
+
+    ]
+}

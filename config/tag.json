@@ -38,5 +38,45 @@
         "tag_rank": 30,
         "attributes": {
         }
+    },
+    "knight":
+    {
+        "id": 3021001,
+        "name": "圆桌骑士",
+        "code": "knight",
+        "type": "attribute",
+        "text": "按照传说被拥护为圆桌骑士之一的人选",
+        "tips": "",
+        "resource": "tag_0",
+        "can_add": 0,
+        "can_visible": 1,
+        "can_inherit": 0,
+        "can_nagative_and_zero": 0,
+        "fail_tag": [],
+        "tag_vanishing": 0,
+        "tag_sfx": "",
+        "tag_rank": 30,
+        "attributes": {
+        }
+    },
+    "merlin":
+    {
+        "id": 3021002,
+        "name": "梅林",
+        "code": "merlin",
+        "type": "attribute",
+        "text": "梅林",
+        "tips": "",
+        "resource": "tag_0",
+        "can_add": 0,
+        "can_visible": 1,
+        "can_inherit": 0,
+        "can_nagative_and_zero": 0,
+        "fail_tag": [],
+        "tag_vanishing": 0,
+        "tag_sfx": "",
+        "tag_rank": 30,
+        "attributes": {
+        }
     }
 }

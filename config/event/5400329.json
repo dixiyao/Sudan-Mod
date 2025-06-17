@@ -1,0 +1,30 @@
+{
+    "id": 5400329,
+    "text": "石中剑传闻",     
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "rite_end": 5000002
+    },
+    "condition":{  //条件
+        "hand_have.2002013":1, //在手牌区
+        "have.2000959":1
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "event_off": 5400329, //关闭事件
+                "rite": 5200406, //思考石中之剑
+                "prompt":{
+                        "id":"5400329_prompt_01",
+                        "text":"石中之剑，只有真正的强者，真正受到这个剑认可的人才能将其拿起，除了你，还能有谁呢？",
+                        "icon":["cards/2000959"]
+                    }
+            }
+        }
+
+    ]
+}

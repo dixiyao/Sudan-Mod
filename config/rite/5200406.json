@@ -1,0 +1,105 @@
+
+{
+        "id": 5200406,
+        "name": "思考石中之剑传闻",
+        "text": "哲巴尔和阿迪莱带来的故事传闻，一个王建立平等的国度的故事",       
+        "tips": "",
+        "mapping_id":8001005,
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":1,
+        "waiting_round_end_action":[
+        ],
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result":0,
+        "location": "自宅:[2,12]", 
+        "icon": "rite_7", 
+        "tag_tips": [
+            "智慧"
+        ],
+        "tag_tips_up":{
+            "tips":["智慧"],
+            "type":"normal_result"
+        },
+        "tips_text":[
+            "至少需要5点智慧才能开启。"
+        ],
+        "open_conditions": [
+            {
+                "condition": {
+                    "any":{
+                        "智慧>=":5,
+                    }
+                },
+                "tips": "至少需要5点智慧才能阅读"
+            }
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+        ],                
+        "settlement_extre": [
+            {
+                "condition":
+                {
+                },
+                "result_title":"",
+                "result_text": "你看着承阳剑，剑身隐隐泛着光辉，——唯有真正的强者，才能将它拔出。这柄剑并不只是力量的象征，更是一种理念的试炼。圆桌骑士的制度源于这份信念：每位骑士无论出身、财富、武艺，皆享有平等的发言权与治理权。一个真正的国家，不该由暴君掌控，而应由人民共治。你沉思良久，他想到世界上仍有许多角落存在压迫与不公，或许或许你真正的使命，是用这十二骑士为基础，建构一个平等对话的平台，让人人皆可言、人人皆可听。你知道，自己并非万能之人。你需要一位睿智的辅佐者—，一位梅林。你微微一笑， 想到了一个老朋友，一个真正能够帮助你的人，一个真正知道穷人需要什么的人。",
+                "result": 
+                {                    
+                },
+                "action":
+                {
+                    // 骑士授勋仪式， 老婆第一个有剧情，额外有妓院，匪帮，女王的朋友， 苗圃加伊曼，拜，猫
+                },
+                "condition":
+                {
+                    "have.2000312":1,  //奈费勒或者
+                    "!have.2000312.大敌":1 //奈费勒还不是大敌   
+                },
+                "result_title":"",
+                "result_text": "你知道，自己并非万能之人。你需要一位睿智的辅佐者—，一位梅林。你微微一笑， 想到了一个老朋友，一个真正能够帮助你的人，一个真正知道穷人需要什么的人。",
+                "result": 
+                {                    
+                },
+                "action":
+                {
+                    "event_on": 5400330 //奈老师梅林事件
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "is":2002013,              
+                    },
+                    "open_adsorb":1,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":1,
+                    "text":"石中之剑的传闻" 
+                },
+            "s2":
+                {
+                    "condition": 
+                    {
+                        "type":"char",
+                        "主角":1,
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"能拔出石中之剑的人"
+        }
+    }
+    } 

@@ -1,0 +1,28 @@
+{
+    "id": 5400328,
+    "text": "石中剑传闻失败",     
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "rite_end": 5000002
+    },
+    "condition":{  //条件
+        "hand_have.2002013":1, //在手牌区
+        "!have.2000959":1
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "prompt":{
+                        "id":"5400328_prompt_01",
+                        "text":"故事中说只有未来的王才能够拿起石中之剑，你应该去哪里找这样一个卡在石头?中的剑呢?",
+                        "icon":["cards/2000959"]
+                    }
+            }
+        }
+
+    ]
+}

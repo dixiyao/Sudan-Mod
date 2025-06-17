@@ -404,4 +404,25 @@
         "equips": [],
         "is_only": 1
     },
+    "2002014": {
+        "id": 2002014,
+        "name": "关于圆桌骑士的设想",
+        "title": "思潮",
+        "text": "在了解了石中剑的故事之后，你脑海中产生了一个异想天开的设想",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2002013",
+        "tag": {
+            "思潮": 1,
+            "已拥有": 1,
+            "纯色材质": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
+    },
 }

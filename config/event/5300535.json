@@ -15,6 +15,9 @@
             "tips_resource":"", 
             "tips_text":"",
             "action":{
+                "no_prompt":{
+                    "table.2000064=奈布哈尼准备银趴":0 //只能被银趴吸附的tag
+                 },
                 "prompt":{
                     "id":"5300535_prompt_1",
                     "text":"妓女的游戏没开起来，奈布哈尼回到不可靠的盟友。",

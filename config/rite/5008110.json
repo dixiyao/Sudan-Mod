@@ -10,7 +10,7 @@
         "waiting_round_end_action":[
         ],        
         "method_settlement": "",
-        "auto_begin": 1,  //自动执行
+        "auto_begin": 0,  //自动执行
         "auto_result": 0, 
         "location": "商业区:[10,19]",
         "icon": "rite_13",  

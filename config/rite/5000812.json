@@ -69,12 +69,7 @@
             "action": {
                 "rite":5000812  //重启仪式
             }
-        }
-    ],                
-    "settlement": [
- 
-    ],                
-    "settlement_extre": [
+        },
         {
             "condition": {
                 //"s1":1,  //存在烂泥众
@@ -100,7 +95,12 @@
             "action": {
                 "rite":5000812  //重启仪式
             }
-        },
+        }
+    ],                
+    "settlement": [
+ 
+    ],                
+    "settlement_extre": [
         {
             "condition": {
                 "s1":1,  //存在烂泥众

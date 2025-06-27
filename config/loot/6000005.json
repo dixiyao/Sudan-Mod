@@ -334,27 +334,79 @@
             "type" : "card",
             "weight" : 60
         },
+                {
+            "num" : "1",
+            "id" : "2001060", //梦中花园
+            "type" : "card",
+            "weight" : 60
+        },
         {
+            "condition":{
+                "!have.2000707":1,
+                "counter.7000673<":1, //还没有完成
+            },
             "num" : "1",
             "id" : "2000707",
             "type" : "card",
             "weight" : 60
         },
         {
+            "condition":{
+                "!have.2000708":1,
+                "counter.7000674<":1, //还没有完成
+            },
             "num" : "1",
             "id" : "2000708",
             "type" : "card",
             "weight" : 60
         },
         {
+            "condition":{
+                "!have.2000709":1,
+                "counter.7000675<":1, //还没有完成
+            },
             "num" : "1",
             "id" : "2000709",
             "type" : "card",
             "weight" : 60
         },
         {
+            "condition":{
+                "!have.2000710":1,
+                "counter.7000676<":1, //还没有完成
+            },
             "num" : "1",
             "id" : "2000710",
+            "type" : "card",
+            "weight" : 60
+        },
+        {
+            "condition":{
+                "!have.2001165":1,
+                "counter.7000678<":1, //还没有完成
+            },
+            "num" : "1",
+            "id" : "2001165", //群蛇山谷
+            "type" : "card",
+            "weight" : 60
+        },
+        {
+            "condition":{
+                "!have.2001150":1,
+                "counter.7000683<":1, //还没有完成
+            },
+            "num" : "1",
+            "id" : "2001150", //高塔上的公主
+            "type" : "card",
+            "weight" : 60
+        },
+        {
+            "condition":{
+                "!have.2001170":1,
+                "counter.7000677<":1, //还没有完成
+            },
+            "num" : "1",
+            "id" : "2001170", //山父之血
             "type" : "card",
             "weight" : 60
         }

@@ -6,7 +6,7 @@
         "mapping_id":8001125, 
         "once_new":0,
         "round_number": 1, //立即执行
-        "waiting_round":1,
+        "waiting_round":0,
         "waiting_round_end_action":[
         ],        
         "method_settlement": "",
@@ -40,7 +40,7 @@
                 {  
 
                     "counter=7000430":0,  //可以继续寻思孩子们
-                    "counter=7000379":0  //可以继续修建其他孤儿院
+                   // "counter=7000379":0  //可以继续修建其他孤儿院
                     
                 },
                 "action": {
@@ -63,7 +63,7 @@
                 },
                 "action": {
                     "global_counter=7200231":1, //成就-希望的苗圃
-                    "rite":5006677 //苗圃
+                    "event_on":5321199 //苗圃
                 }
             }
         ],               
@@ -84,7 +84,7 @@
             },
             "action": {
                 "global_counter=7200231":1, //成就-希望的苗圃
-                "rite":5006677 //苗圃
+                "event_on":5321199 //苗圃
             }
             }
         ],

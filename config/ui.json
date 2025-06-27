@@ -1316,7 +1316,7 @@
         "comment": "模组首次上传提示"
     },
     "MOD_ACTIVE_FAILED": {
-        "zhCN": "模组 {0}启用失败，请检查日志。",
+        "zhCN": "模组 {0} 启用失败，请检查日志。",
         "comment": "模组列表中模组激活失败提示"
     },
     "MOD_UPLOAD_FAILED": {
@@ -1324,15 +1324,15 @@
         "comment": "模组列表中模组上传失败提示"
     },
     "MOD_PROCESS_UPLOAD": {
-        "zhCN": "正在上传 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
+        "zhCN": "正在上传 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
         "comment": "模组列表中模组上传提示"
     },
     "MOD_PROCESS_DOWNLOAD": {
-        "zhCN": "正在下载 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
+        "zhCN": "正在下载 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
         "comment": "模组列表中模组下载提示"
     },
     "MOD_PROCESS_ACTIVE": {
-        "zhCN": "正在启用 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
+        "zhCN": "正在启用 {0}，请稍候  <size=20%><sprite anim=\"26,31,5\"></size>",
         "comment": "模组列表中模组启用提示"
     },
     "MOD_BAN_WORDS": {

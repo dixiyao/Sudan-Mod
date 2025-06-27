@@ -22,6 +22,7 @@
             "tips_resource": "",
             "tips_text": "",
             "action": {
+                "counter+7000709":1, //标识触发了清洗异端
                 "delay": { //延迟2回合执行
                     "id": 53211721,
                     "round": 2,

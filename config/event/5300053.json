@@ -9,6 +9,7 @@
     },
     "condition":{  //条件
         "table_have.2000024":1, //苏丹在牌池中
+        "!table_have.2000024.上朝":1,
         "hand_have.主角":1
     },
     "settlement": [    

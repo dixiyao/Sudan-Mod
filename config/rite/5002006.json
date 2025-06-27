@@ -227,7 +227,7 @@
             {
                 "condition": { 
                     "counter.7000117>=":6,
-                    "counter.7000200<":34 //弹框总数总数
+                    "counter.7000200<":39 //弹框总数总数
                 },
                 "result_title":"",
                 "result_text": "一件值得注意的事情发生了。",

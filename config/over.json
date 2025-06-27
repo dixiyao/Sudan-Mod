@@ -83,5 +83,22 @@
             "bg":"over_cg/over_cg_1",
             "icon":"over_icon/over_icon_1",
             "title":"over_icon/over_title"
+        },
+        "640": {
+            "name": "理想国",  
+            "sub_name": "乌托邦?",
+            "success": 2, 
+            "text": "首先第一步结束苏丹和这个荒唐的游戏。第二步，你看向你的圆桌骑士们，最后将目光落在了你的梅林上。接下来是属于你们二人的时光，改变这个时代，改变这个国家，改变这个社会。也许接下来不关需要你们这一代的努力，还需要几代人才能够建设一个理想的社会。你希望那个虚无的石中剑传说，最后不会变成一个乌托邦。何为正义，何为秩序，何为权力，接下来的几十年你和奈费勒有了新的目标去探索。",
+            "text_extra": [
+                {
+                    "condition": {
+                    },
+                    "result_text": ""
+                }
+            ],
+            "open_after_story": 1,
+            "bg":"over_cg/over_cg_1",
+            "icon":"over_icon/over_icon_1",
+            "title":"over_icon/over_title"
         }
 }

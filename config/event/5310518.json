@@ -1,0 +1,27 @@
+{
+        "id": 5310518,
+        "text": "结局-贤者之国",
+        "is_replay": 0, 
+        "auto_start": false, 
+        "start_trigger": true,  //立即触发
+        "on":{   
+            "rite_end": 5010024
+        },
+        "condition":{
+            "counter.7000446>=":1, //平衡
+            "any":{
+                "counter.7000906<":1,
+                "table_have.圆桌骑士<":12,
+                "!have.2000312.梅林":1
+            }
+        },
+        "settlement": [    
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{     
+                "over":246
+            }
+        }
+    ]
+} 

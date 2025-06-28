@@ -1,0 +1,185 @@
+ {
+        "id": 5200022,
+        "name": "纳阿迪莱为妾",
+        "text": "你答应妻子关于阿迪莱加入家庭的请求，同时为了和阿迪莱道歉，你需要准备足够真诚的礼物",       
+        "tips": "",
+        "mapping_id":8001310,
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":10,
+        "waiting_round_end_action":[
+            {
+                "condition": {
+                },
+                "result_title":"",
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "prompt": {
+                        "id": "prompt_5200022_01",
+                        "text": "你答应了妻子，但是没有旅行诺言，妻子再一次对你失望"
+                    },
+                    "card":2000083, //妻子的不满
+                }
+            }
+        ],        
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result": 0,
+        "location": "自宅:[2,12]", 
+        "icon": "rite_12",  
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "阿迪莱还在思考之前错过的猎物",
+        ],
+        "open_conditions": [
+            {
+                "condition": {
+                    "any":{
+                        "counter.7100003>=":10,   
+                        "counter.7100004>=":10,  //侠名大于等于10
+                    }
+                },
+                "tips": "你至少需要10点权势或者侠名"
+            }
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                },
+                "result_title":"诚恳道歉",
+                "result_text": "在梅姬的帮助下，你将礼物给阿迪莱，看在梅姬和珍贵礼物的份上，她接受了你的道歉，尽管你可以看见她心底的怒火。为了让这个闹剧结束，你将阿迪莱收为自己的妾室，然而说实话，究竟是谁的妾室还不好说。仪式结束以后，阿迪莱和梅姬手拉着手走出房间，仿佛是多年未见的挚友，好姐妹。",
+                "result": 
+                {
+                    "s1=反对":0,
+                    "s1+支持":1,
+                    "s1+追随者":1,
+                    "s1-纵欲的痕迹":1,
+                    "s1+激情":1,
+                    "s2+激情":1,
+                    "s1+侧室":1,
+                    "counter+7000166": 1 //阿迪莱成为追随者的计数
+                },
+                "action": {
+                    "event_on":5300124 //激活后续少女审视自己的仪式
+                }
+            }
+        ],               
+        "settlement_extre": [
+            {
+                "condition": {
+                    "s4.is":2001138  //给恋爱白犀牛
+                },
+                "result_title":"你给了她一个令人害怕的礼物",
+                "result_text": "阿迪莱很喜欢你送她的礼物,经常的你看见梅姬和阿迪莱骑着白犀牛从家里出去。阿迪莱坐在后面，手把着梅姬的手教她控制缰绳，有的时候梅姬会差点从白犀牛上面摔下来，阿迪莱会敏捷的把她抓住。梅姬的脸上总是挂着笑容，仿佛是一个幸福的少女。",
+                "result": 
+                { 
+                    "s1-equip":2000330,  
+                    "s1+equip":2000331,
+                    "s1+s2":1, //阿迪莱强锁白犀牛
+                },
+                "action": {
+                }
+            },
+            {
+                "condition": {
+                    "s4.is":2000329
+                },
+                "result_title":"",
+                "result_text": "阿迪莱用犀牛皮打造了一件强大的武器",
+                "result": 
+                { 
+                    "s1-equip":2000330,
+                    "s1+equip":2000331,
+                },
+                "action": {
+                }
+            },
+            {
+                "condition": {
+                    "s2.is":2001139  //给邪白牛皮
+                },
+                "result_title":"",
+                "result_text": "显然，这块犀牛皮已经不是原来她认知里的东西了，它散发着邪气，仿佛来自某些魔物，而非人间生灵。阿迪莱迟疑了，无法分辨你的意图……\n你告诉她，自己在这个最邪恶的游戏里求生，所以哪怕是黑暗的力量，也要为自己所用——只要最后结果是光明的就好。她用这卷附有黑暗魔法的兽皮打造了一把更强大的武器",
+                "result": 
+                { 
+                    "s1-equip":2000330,  
+                    "s1+equip":2001140,  //阿迪莱装备传奇宝剑邪
+                },
+                "action": {
+                    
+                }
+            },
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        
+                        "妻子":1,
+                        "激情":3                 
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"梅姬需要监督会谈" 
+                },
+            "s2":
+                {
+                    "condition": 
+                    {
+                        "is":2000061,
+                        "type":"char"
+                    },
+                    "open_adsorb":1,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"阿迪莱愿意接受你的道歉"
+                },
+            "s3":
+                {
+                    "condition": 
+                    {
+                        "主角":1,
+                        "type":"char"
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"你需要亲自道歉"
+                },
+            "s4":
+                {
+                    "condition": 
+                    {
+                        "type":"item",
+                        "any":{
+                            "is":2000329,  //白犀牛皮
+                            "is":2001139,    //邪白牛皮
+                            "is": 2001138 //恋爱白犀牛
+                        },
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"白犀牛或者白犀牛皮"
+                }
+        }
+    } 

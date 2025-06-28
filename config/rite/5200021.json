@@ -1,0 +1,67 @@
+ {
+        "id": 5200021,
+        "name": "远行访友",
+        "text": "仆人告诉你，你的妻子梅姬去拜访阿迪莱在的部落里，她会和阿迪莱带比较长的一段时间",       
+        "tips": "",
+        "mapping_id":8001077,   
+        "once_new":0,
+        "round_number": 10,
+        "waiting_round":0,
+        "waiting_round_end_action":[
+        ],        
+        "method_settlement": "",
+        "auto_begin": 1,
+        "auto_result":0, 
+        "location": "自宅:[2,12]", 
+        "icon": "rite_20", 
+        "tag_tips": [         
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "这个仪式会占用你的妻子，让你没法用她做其他事情",
+            "被一个仪式占用之后，会导致其他类似的事件也无法自动吸附本角色"
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{
+        },
+        "random_effect": {          
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                },
+                "result_title":"",
+                "result_text": "梅姬回来了。她告诉你她去了阿迪莱的部落，陪了她很长一段时间治愈她的心灵，可能也许还有肉体。她告诉你她们俩度过了相当快乐的一段时光，至于发生什么事情的细节并没有告诉你。梅姬看向你提出了一个请求，她希望你能够郑重的和阿迪莱道歉，这套卡牌不是你胡作非为的免死金牌。其次，为了让这个事情收场，梅姬希望你能同意让阿迪莱加入你们的家庭。",
+                "result": 
+                {
+                },
+                "action": {
+                    "event_on": 5400015,//收阿迪莱事件幕后
+                }
+            }
+        ],               
+        "settlement_extre": [
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "condition": 
+                    {
+                        "妻子":1,
+                        "type":"char"
+                    },
+                    "open_adsorb":1,
+                    "is_key":0,
+                    "is_empty":0,
+                    "is_enemy":0,
+                    "text":"妻子已然远行"
+                }
+        }
+    } 

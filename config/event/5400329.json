@@ -8,7 +8,7 @@
         "rite_end": 5000002
     },
     "condition":{  //条件
-        "hand_have.2002013":1, //在手牌区
+        "hand_have.2102013":1, //在手牌区
         "have.2000959":1
     },
     "settlement": [    //效果 

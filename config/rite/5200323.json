@@ -128,7 +128,7 @@
                     "condition": 
                     {
                         "type":"item",
-                        "is": 2001155 // 无形者
+                        "is": 2101155 // 无形者
                     },
                     "open_adsorb":0,
                     "is_key":0,

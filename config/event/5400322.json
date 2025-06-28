@@ -8,7 +8,7 @@
         "round_begin_ba":1
     },
     "condition":{
-        "have.2001153": 5,
+        "have.2101153": 5,
         "table_have.2000114":1, //古利斯还活着
         "counter.7000708>=":1 //古利斯持有袖剑
     },

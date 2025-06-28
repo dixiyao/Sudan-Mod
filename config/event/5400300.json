@@ -19,7 +19,7 @@
             "tips_text":"",
             "action":{
                 "counter+7000713":1,
-                "card":[2001152,"已拥有"],
+                "card":[2101152,"已拥有"],
                 "event_on": 5400306, //古利斯找你
                 "success":{
                     "prompt":{

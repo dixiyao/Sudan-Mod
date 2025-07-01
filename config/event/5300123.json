@@ -17,6 +17,7 @@
             "tips_text":"",
             "action":{
                 "event_on": 5400014, //妻子生气事件
+                "event_on": 5400016, //妻子不在就自杀 
                 "success":{
                     "event_off":5300123
                 }

@@ -1,0 +1,26 @@
+{
+    "id": 5300123,
+    "text": "被羞辱的少女",     
+    "is_replay": 1, //是否可以重复触发
+    "auto_start_init": [1],
+    "start_trigger": false, // 是否启动就立即开始校验条件
+    "on":{   //时机
+        "round_begin_ba":[1,2]
+    },
+    "condition":{  //条件
+        "table_have.2000061":1,
+        "table_have.2000061.纵欲的痕迹":1
+    },
+    "settlement": [    //效果 
+        {
+            "tips_resource":"", 
+            "tips_text":"",
+            "action":{
+                "event_on": 5400014, //妻子生气事件
+                "success":{
+                    "event_off":5300123
+                }
+            }
+        }
+    ]
+}

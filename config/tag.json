@@ -1,6 +1,6 @@
 {
     "doom": {
-        "id": 3020270,
+        "id": 3021001,
         "name": "末日使者",
         "code": "doom",
         "type": "attribute",
@@ -19,7 +19,7 @@
     },
     "with_nayila":
     {
-        "id": 3020302,
+        "id": 3021002,
         "name": "与娜依拉交欢",
         "code": "with_nayila",
         "type": "attribute",

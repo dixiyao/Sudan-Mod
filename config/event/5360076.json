@@ -1,14 +1,15 @@
 {
     "id": 5360076,
     "text": "第21天生成女术士小卖部",     
-    "is_replay": 0, //是否可以重复触发
+    "is_replay": 1, //重复检查，确保小卖部始终存在
     "auto_start_init": [1],
     "start_trigger": false, // 是否启动就立即开始校验条件
     "on":{   //时机
         "round_begin_ba":1 //每回合刷一次
     },
     "condition":{  //条件
-        "counter.7000060>=":21
+        "counter.7000060>=":10,
+        "!rite.5200016":1 //小卖部不存在时重新生成
     },
     "settlement": [    //效果 
         {
